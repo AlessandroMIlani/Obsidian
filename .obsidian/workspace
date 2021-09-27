@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "37b323ab9b199d30",
+    "type": "split",
+    "children": [
+      {
+        "id": "58a16d0741c23e07",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Università/Anno II/LFT/DFA.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ae7feb0271aca23",
+    "type": "split",
+    "children": [
+      {
+        "id": "70b6a86831eb2442",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "054b24f223a7e231",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3460fc6154169c32",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6ce0577310a1e81f",
+    "type": "split",
+    "children": [
+      {
+        "id": "32ceb71925baac65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61efca7904af0082",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Università/Anno II/LFT/DFA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "58a16d0741c23e07",
+  "lastOpenFiles": [
+    "Università/Anno II/LFT/DFA.md",
+    "Università/Anno II/LFT/Introduzione.md"
+  ]
+}

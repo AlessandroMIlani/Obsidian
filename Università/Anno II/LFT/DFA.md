@@ -82,6 +82,7 @@ stateDiagram-v2
 	q0 --> q1 : 1
 	q1 --> q1 : 1
 	q0 --> q0 :0
+	Note right of q1: Nodo d'uscita
 
 ```
 
@@ -99,7 +100,8 @@ stateDiagram-v2
 	q1 --> q2 :b
 	q2 --> q1 :a
 	q2 --> q3 :b
-	q3 --> q3 :b,a
+	q3 --> q3 :b,a	
+	Note right of q3: Nodo d'uscita
 
 ```
 

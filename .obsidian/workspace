@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/LFT/DFA.md",
+            "file": "Università/Anno II/LFT/NFA.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/LFT/DFA.md",
+                "file": "Università/Anno II/LFT/NFA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,11 @@
   },
   "active": "58a16d0741c23e07",
   "lastOpenFiles": [
+    "Università/Anno II/LFT/NFA.md",
+    "Appunti/Lezioni/28-09-2021 LFT.md",
     "Università/Anno II/LFT/DFA.md",
+    "Università/Anno II/LFT/Untitled.md",
+    "Appunti/Lezioni/28-09-2021 SO.md",
     "Università/Anno II/LFT/Introduzione.md"
   ]
 }

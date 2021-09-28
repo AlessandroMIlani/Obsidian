@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/LFT/NFA.md",
-            "mode": "source"
+            "file": "Università/Anno II/SO/Architettura SO.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/LFT/NFA.md",
+                "file": "Università/Anno II/SO/Architettura SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +89,14 @@
   },
   "active": "58a16d0741c23e07",
   "lastOpenFiles": [
+    "Università/Anno II/SO/Architettura SO.md",
+    "Appunti/Lezioni/28-09-2021 SO.md",
+    "Università/Anno II/SO/Storia.md",
+    "Università/Anno II/SO/Untitled.md",
     "Università/Anno II/LFT/NFA.md",
     "Appunti/Lezioni/28-09-2021 LFT.md",
     "Università/Anno II/LFT/DFA.md",
     "Università/Anno II/LFT/Untitled.md",
-    "Appunti/Lezioni/28-09-2021 SO.md",
     "Università/Anno II/LFT/Introduzione.md"
   ]
 }

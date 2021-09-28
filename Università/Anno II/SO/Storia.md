@@ -40,3 +40,5 @@ Passimo a gli anni 60
 - Nasce l'idea di personal computer
 - Si semplificano i SO
 	- Vengono rimosse molte features (es. sicurezza, gestione di più utenti in contemporanea ecc...)
+
+[[Architettura SO]]

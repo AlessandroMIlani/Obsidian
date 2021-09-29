@@ -130,3 +130,10 @@ stateDiagram-v2
 - quando l’automa è nello stato q0 e legge una a, può scegliere se restare in q0 oppure spostarsi in q1 e avvicinarsi allo stato finale
 - è come se l’automa sapesse qual è la a che annuncia il suffisso abb (quando c’è)
 - l’automa non deterministico ha meno transizioni di quello deterministico
+
+| \ |a|b|
+|---|---|---|
+|->{q0}|{q0,q1}|{q0,q1}|
+|{q0,q1}|{q0,q1}|{q0,q2}|
+|{q0,q2}|{q0,q1}|{q0,q3}|
+|\*{q0,q3}|{q0,q1}|{q0}|

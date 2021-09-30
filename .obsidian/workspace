@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/SO/Architettura SO.md",
+            "file": "Appunti/Lezioni/30-09-2021 LFT.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "d2311125c4b7b79c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Appunti/Lezioni/30-09-2021 LFT.md",
             "mode": "preview"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/SO/Architettura SO.md",
+                "file": "Appunti/Lezioni/30-09-2021 LFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,14 +99,15 @@
   },
   "active": "58a16d0741c23e07",
   "lastOpenFiles": [
-    "Università/Anno II/SO/Architettura SO.md",
-    "Appunti/Lezioni/28-09-2021 SO.md",
-    "Università/Anno II/SO/Storia.md",
-    "Università/Anno II/SO/Untitled.md",
+    "Appunti/Lezioni/30-09-2021 LFT.md",
+    "Università/Anno I/Analisi/Teoremi Esame.md",
+    "Pasted image 20210930125036.png",
+    "Pasted image 20210930123547.png",
+    "Pasted image 20210930115728.png",
+    "Pasted image 20210930114638.png",
+    "Università/Anno I/Analisi/Serie Numeriche.md",
+    "Università/Anno I/Analisi/Formula punto medio.md",
     "Università/Anno II/LFT/NFA.md",
-    "Appunti/Lezioni/28-09-2021 LFT.md",
-    "Università/Anno II/LFT/DFA.md",
-    "Università/Anno II/LFT/Untitled.md",
-    "Università/Anno II/LFT/Introduzione.md"
+    "Università/Anno II/SO/Architettura SO.md"
   ]
 }

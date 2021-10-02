@@ -1,4 +1,3 @@
-- Rifare diagrammi di Gantt con mermaid
 ## Coda Ready
 - dato insieme di elementi ready, devo sceglioere un criterio per dedicere l'ordine di esecuzione
 ### Politiche di Scheduling

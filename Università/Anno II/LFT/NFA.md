@@ -43,11 +43,11 @@ Un automa a stati finiti non deterministici (detto NFA) è una quintupla $A = (Q
 
 ### Linguaggio riconosciuto da un FNA
 La **funzione di transizione estesa** dell'NFA $A = (Q, \sum, \delta, q_0,F)$ è la funzione $\hat\delta : Q \ x \sum^* -> \wp(Q)$ definita per induzione sul suo seconod argomento come segue:
-$$\^hat\delta (q,\epsilon)=\{q\} \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \hat\delta (q,wa) = \{r \in \delta(p,a) | p \in \hat\delta(q,w)\}$$
+$$\hat\delta (q,\epsilon)=\{q\} \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \hat\delta (q,wa) = \{r \in \delta(p,a) | p \in \hat\delta(q,w)\}$$
 
 #### Definizione
 Il linguagguio riconosciuto dall'NFA e denotato da L(A) e definito come:
-$$ L(A) = \{w \in \sum^* | \^\delta(q_0,w) \cap F \neq \emptyset \}$$
+$$ L(A) = \{w \in \sum^* | \hat\delta(q_0,w) \cap F \neq \emptyset \}$$
 ##### Nota
 - l'NFA rioconosce una stringa $w$ se esiste un percorso etichettato con $w$ che lo porta dallo stato iniziale $q_0$ a uno dei suoi stati finali $F$
 ##### Rappresentaizone Tabellare
@@ -131,9 +131,44 @@ stateDiagram-v2
 - è come se l’automa sapesse qual è la a che annuncia il suffisso abb (quando c’è)
 - l’automa non deterministico ha meno transizioni di quello deterministico
 
-| \ |a|b|
-|---|---|---|
-|->{q0}|{q0,q1}|{q0,q1}|
-|{q0,q1}|{q0,q1}|{q0,q2}|
-|{q0,q2}|{q0,q1}|{q0,q3}|
-|\*{q0,q3}|{q0,q1}|{q0}|
+| \         | a       | b       |
+| --------- | ------- | ------- |
+| ->{q0}    | {q0,q1} | {q0,q1} |
+| {q0,q1}   | {q0,q1} | {q0,q2} |
+| {q0,q2}   | {q0,q1} | {q0,q3} |
+| \*{q0,q3} | {q0,q1} | {q0}    |
+|           |         |         |
+
+### Esercizio ogni a seguita da bb
+- tabella automa deterministico
+
+|      .      |      a      |      b      |
+|:-----------:|:-----------:|:-----------:|
+|  ->\*{q0}   |    {q1}     |    {q2}     |
+|    {q1}     | $\emptyset$ |    {q2}     |
+|    {q2}     | $\emptyset$ |    {q0}     |
+| $\emptyset$ | $\emptyset$ | $\emptyset$ |
+- Automa deterministico           
+
+```mermaid 
+stateDiagram-v2 
+q0 --> q1 :a 
+q0 --> q0 :b
+q1 --> q2 :b
+q1 --> q3 :a
+q2 --> q3 :a
+q2 --> q0 :b
+q3 --> q3 :a,b
+```
+- Automa non deterministico
+
+```mermaid 
+stateDiagram-v2 
+q0 --> q1 :a 
+q0 --> q0 :b
+q1 --> q2 :b
+q2 --> q0 :b
+
+```
+
+[[ε-Transizioni]]

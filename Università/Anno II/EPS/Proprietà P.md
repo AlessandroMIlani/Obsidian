@@ -58,7 +58,7 @@ oss:
  - $\forall\ \ A \leq \Omega\ \ \ \  \ \ \ \ P(A | B)=\frac{P(A\cap B)}{P(B)}$
  - P($\ \ \cdot$|B) : P$(\Omega)$
 
-- Boddiamo controllare 
+- Dobbiamo controllare 
 1. P(A|B) >= 0
 	 -  $P(A|B)=\frac{P(A\cap B)}{P(B)} \geq 0$ 
 2. P($\Omega | B$) = 1

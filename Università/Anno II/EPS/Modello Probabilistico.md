@@ -65,5 +65,6 @@ $\Omega$ => evento certo
 		- Equità P({TTT}) = ...= P({ccc}) = 1/8  
 
 ### Quanto posso generalizzare
-1. Equità = i singoletti soon equivalenti
+1. Equità = i singoletti sono equivalenti
 2. $\Omega$ è finito
+[[Proprietà P]]

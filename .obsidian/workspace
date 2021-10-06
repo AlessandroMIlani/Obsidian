@@ -6,17 +6,19 @@
       {
         "id": "58a16d0741c23e07",
         "type": "leaf",
+        "dimension": 48.91025641025641,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/06-10-21 SO.md",
-            "mode": "source"
+            "file": "Università/Anno II/SO/Processi.md",
+            "mode": "preview"
           }
         }
       },
       {
-        "id": "840683c515f5fcf8",
+        "id": "828e773b6b50c763",
         "type": "leaf",
+        "dimension": 51.089743589743584,
         "state": {
           "type": "markdown",
           "state": {
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/06-10-21 SO.md",
+                "file": "Università/Anno II/SO/Processi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +101,15 @@
   },
   "active": "58a16d0741c23e07",
   "lastOpenFiles": [
-    "Appunti/Lezioni/06-10-21 SO.md",
+    "Università/Anno II/SO/Processi.md",
+    "Università/Anno II/SO/Storia.md",
+    "Università/Anno II/SO/Thread.md",
+    "Università/Anno II/SO/Untitled.md",
+    "Università/Lezioni/06-10-21 SO.md",
+    "Università/Lezioni/05-10-2021 SO.md",
+    "Università/Anno II/SO/Scheduling.md",
     "Università/Anno II/SO/Architettura SO.md",
-    "ArcoLinux_2021-10-05_10-30-30.png",
-    "06-10-21 SO.md",
-    "Untitled.md",
-    "Appunti/Lezioni/06-10-2021 LFT.md",
-    "Università/Anno II/LFT/Introduzione.md",
-    "Università/Anno II/LFT/DFA.md",
-    "Università/Anno II/LFT/NFA.md",
-    "Appunti/Lezioni/05-10-2021 LFT.md"
+    "Università/Anno II/SO/Introduzione.md",
+    "Università/Lezioni/06-10-2021 LFT.md"
   ]
 }

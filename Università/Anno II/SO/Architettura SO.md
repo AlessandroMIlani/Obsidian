@@ -109,3 +109,4 @@ Scheduling a lungo/medio/breve termine
  - lungo termine -> P in running termina e pesca uno dei Pn già presenti nella meoria di persistenza (è circa il sistema di funzionaente dei sistemai operativi di prima generazione)
  - medio temrine (Swapping) -> P in running e Pn in ram, ne vengono mandati in esecuzione più di qunati ce ne stanno nella ram -> li salvo nella memoria persistente (Pn+1 .. Pm) --> lo swapping ogni  tanto scambia i processi in ram con quelli in memoria
 -  - breve termine -> P1-4 nella ram, lo scheduling decide qual'è il prossimo processo ad entrare in eseuczione (p1,p2,p3,p4 $\in$ coda ready)
+[[Scheduling]]

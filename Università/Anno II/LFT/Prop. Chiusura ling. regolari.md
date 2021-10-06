@@ -1,35 +1,3 @@
-## Espressione regolare → ε-NFA 
- terorema: 
- - data sepressione regolare E, esiste un ε-NFA  A t.c. L(A)=L(E)
- 
- Dimostrazione:
- - 
-Costruiamo A per induzione sulla struttura diE e per casi sulla sua forma, facendo in modo che l’εNFA ottenuto abbia sempre esattamente uno stato finale
-
-**Caso $\emptyset$ (linguaggio vuoto)**
-
-```mermaid 
-stateDiagram-v2
-	q0
-	q1
-```
-
-**Caso ε (linguaggio sola stringa vuota)**
-```mermaid 
-stateDiagram-v2
-	q0 --> q1 :ε
-```
-
-**caso a (linguaggio che contiene solo a)**
-```mermaid 
-stateDiagram-v2
-	q0 --> q1 :a
-```
-![[ArcoLinux_2021-10-06_11-31-34.jpg]]
-
-![[ArcoLinux_2021-10-06_11-33-35.jpg]]
-
----
 ## Proprietà di chiusura dei linguaggi regolari
 ### Sommario
 - $L \cup L^I$
@@ -73,6 +41,12 @@ Sono chiusi per complemento.
 	
 	**Dismostrazione**
 	- se L è regolare, deve esistere un espressione regolare E t.c. L=L(E)
-	- Definiamo l'espressione regolare $E^R$ per induzione sulla struttura di E e per casi sulla sua forma, usando le seguenti equazioni: ![[ArcoLinux_2021-10-06_12-51-23.jpg]]
+	- Definiamo l'espressione regolare $E^R$ per induzione sulla struttura di E e per casi sulla sua forma, usando le seguenti equazioni: 
+$$\emptyset^R = \emptyset $$
+$$\epsilon^R = \epsilon $$
+$$a^R = a $$
+$$(E_1+E_2)^R=E_1^R+E_2^R$$
+$$(E_1E_2)^R=E_2^RE_1^R $$
+$$(E^*)^R=(E^R)^* $$
 		è facile dimostrare che $L(E^R)=L(E)^R$ dunque $L^R$ è regolare
 		

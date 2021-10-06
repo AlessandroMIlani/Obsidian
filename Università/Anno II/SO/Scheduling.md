@@ -186,3 +186,32 @@ gantt
 
 - si dicono Multilivello con feedback, qunado i processi possono saltare da un cod a priorità minore, ad una a priorità magiore
 	- serve per evitare lo **Starvation** e viene detto **Aging** 
+
+## Prelazione
+
+Meccanismo che premette al SO di sottrarre una risorsa(cpu) a un processo(running)
+
+#### RIassegnare la cpu a un altro processo
+Avvine in 4 circostanze diverse 
+1. processo running diventa waiting
+2. processo running viene riportato a ready
+3. processo waiting diventa ready
+4. processo running termina
+
+- caso 1 e 4 -> no prelazione -> rilascio volontario della cpu
+- prelazione solo nei casi 2 (es. nel round robin) e 3
+
+Shortest jobs first ( senza prelazione) -> presenta una variante con prelazione -> *Shortest remaining time first*
+```mermaid 
+	flowchart LR
+ Ready --> Running
+ Running --> Waiting
+ Waiting --> Ready
+ Running --> Ready
+```
+- se un nuovo processo richede poco tempo può finire in testa alla coda ready
+	- se ne richiede meno di quanto ne richiederebbe quello in esecuzione per finire, lo può spostare nello stato waiting per eseguire quello nouvo più breve
+
+- La prelazione richiede un supporto HW
+
+[[Processi]]

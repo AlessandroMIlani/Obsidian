@@ -9,19 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Appunti/Lezioni/06-10-2021 LFT.md",
+            "file": "Appunti/Lezioni/06-10-21 SO.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "ffc8f613c5ff6f7d",
+        "id": "840683c515f5fcf8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Appunti/Lezioni/06-10-2021 LFT.md",
-            "mode": "source"
+            "file": "Appunti/Lezioni/06-10-21 SO.md",
+            "mode": "preview"
           }
         }
       }
@@ -63,7 +63,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti/Lezioni/06-10-2021 LFT.md",
+                "file": "Appunti/Lezioni/06-10-21 SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +100,15 @@
   },
   "active": "58a16d0741c23e07",
   "lastOpenFiles": [
-    "Appunti/Lezioni/06-10-2021 LFT.md",
-    "06-10-2021 LFT.md",
+    "Appunti/Lezioni/06-10-21 SO.md",
+    "06-10-21 SO.md",
     "Untitled.md",
-    "Appunti/Lezioni/05-10-2021 EPS.md",
-    "Appunti/Lezioni/05-10-2021 SO.md",
-    "Università/Anno II/SO/Architettura SO.md",
-    "Università/Anno II/LFT/ε-Transizioni.md",
+    "Appunti/Lezioni/06-10-2021 LFT.md",
+    "Università/Anno II/LFT/Introduzione.md",
     "Università/Anno II/LFT/DFA.md",
+    "Università/Anno II/LFT/NFA.md",
     "Appunti/Lezioni/05-10-2021 LFT.md",
-    "Appunti/Lezioni/30-09-2021 EPS.md"
+    "06-10-2021 LFT.md",
+    "Appunti/Lezioni/05-10-2021 EPS.md"
   ]
 }

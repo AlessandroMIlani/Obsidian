@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Appunti/Lezioni/06-10-21 SO.md",
+            "file": "Università/Lezioni/06-10-21 SO.md",
             "mode": "source"
           }
         }
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Appunti/Lezioni/06-10-21 SO.md",
+            "file": "Università/Lezioni/06-10-21 SO.md",
             "mode": "preview"
           }
         }
@@ -63,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti/Lezioni/06-10-21 SO.md",
+                "file": "Università/Lezioni/06-10-21 SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

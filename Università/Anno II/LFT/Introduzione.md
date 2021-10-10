@@ -77,7 +77,7 @@ Un linguaggio L su un alfabeto $\epsilon$ su un alfabeto $\sum$ è un qualunque 
 
 
 ### Esercizi
-- dimostrare oerchè le relazioni non ono valide:
+- dimostrare oerchè le relazioni non sono valide:
 	1. $L \emptyset = \emptyset L = L$  -> Il risultato giusto è $\emptyset$ (linguaggio vuoto)
 		 - la si può considerare come una moltiplicazione per 0
 	2. $L\{\epsilon\}=\{\epsilon\}L=\{\epsilon\}$ -> il risulato giusto è L

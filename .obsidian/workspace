@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "58a16d0741c23e07",
-        "type": "leaf",
-        "dimension": 48.91025641025641,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Università/Anno II/SO/Processi.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
         "id": "828e773b6b50c763",
         "type": "leaf",
-        "dimension": 51.089743589743584,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/06-10-21 SO.md",
+            "file": "Università/Anno II/LFT/ε-Transizioni.md",
             "mode": "preview"
           }
         }
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/SO/Processi.md",
+                "file": "Università/Anno II/LFT/ε-Transizioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "58a16d0741c23e07",
+  "active": "828e773b6b50c763",
   "lastOpenFiles": [
-    "Università/Anno II/SO/Processi.md",
-    "Università/Anno II/SO/Storia.md",
-    "Università/Anno II/SO/Thread.md",
-    "Università/Anno II/SO/Untitled.md",
-    "Università/Lezioni/06-10-21 SO.md",
+    "Università/Anno II/LFT/ε-Transizioni.md",
+    "Università/Anno II/LFT/NFA.md",
+    "Università/Anno II/LFT/DFA.md",
+    "Università/Anno II/LFT/Introduzione.md",
+    "Università/Lezioni/06-10-2021 LFT.md",
     "Università/Lezioni/05-10-2021 SO.md",
-    "Università/Anno II/SO/Scheduling.md",
-    "Università/Anno II/SO/Architettura SO.md",
-    "Università/Anno II/SO/Introduzione.md",
-    "Università/Lezioni/06-10-2021 LFT.md"
+    "Università/Anno II/LFT/Prop. Chiusura ling. regolari.md",
+    "Università/Anno II/LFT/Espressioni Regolari.md",
+    "Università/Lezioni/06-10-21 SO.md",
+    "Università/Anno II/SO/Processi.md"
   ]
 }

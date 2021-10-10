@@ -14,7 +14,7 @@ Ho il compito di svuotare il recipiente e dire “sì” se il numero di biglie 
 mi comporto diversamente in base a quante biglie vedo nel recipiente:
 - se il recipiente è vuoto dico "no" 
 - se una solo dico "si" 
-- se 2 o pùi, rimuovo 2 biglie e ricontrollo 
+- se 2 o più, rimuovo 2 biglie e ricontrollo 
 
 ```mermaid 
 stateDiagram-v2
@@ -22,7 +22,6 @@ q0 --> q1 :b
 q0 --> q2 :b
 q2 --> q0 :b
 note left of q1: stato finale
-	
 ```
 $q_0$ = guardo reciepente, se vuoto dico "no"
 $q_11$ = il recipiente conteneva  1 sola biglia, dico "SI"
@@ -36,7 +35,7 @@ Un automa a stati finiti non deterministici (detto NFA) è una quintupla $A = (Q
 - $q0 \in Q$ **stato iniziale**
 - $F \subseteq Q$  insieme di **stati finiti**
 
-### Note (da copiare)
+### Note
 - $\delta(q,a)$: insieme stati in cui NFA può transitare quando nello stato q legge il simbolo a
 	- se $\delta(q,a)$ è un singoletto se c'è una sola scelta
 	- se $\delta(q,a)$ è vuoto, l'autoa rifiuta la stringa
@@ -61,13 +60,13 @@ $$ L(A) = \{w \in \sum^* | \hat\delta(q_0,w) \cap F \neq \emptyset \}$$
 - insieme vuoto -> NFA **rifiuta** la stringa
 - gli altri casi indicano transazioni **non** deterministiche
 
-### DFA --> NFA  //Finire di copiare
+### DFA --> NFA 
 **Teorema**
-dato DFA *D*, ssite NFA* N* t.c. L(N)=L(D)
+dato DFA *D*, esite NFA* N* t.c. L(N)=L(D)
 - **Dimostrazione**
-	definiamo N = $(Q, \sum, \delta_N, q_0,F)$ dove
+	definiamo N = $(Q, \sum, \delta_N, q_0,F)$ dove  
 	 $$\delta_n(q,a)=\{(\delta_D(q,a)\}$$ 
-Si può dimostrare, per inudzione su $|w|$ che:
+Si può dimostrare, per induzione su $|w|$ che:
 $$\hat\delta_D(q_0,w) = p <=> \hat\delta_N(q_0,w$)=\{p\}$$
 si conclude che
 $$\hat\delta_D(q_0,w$)\in F <=> \hat\delta_N(q_0,w)\cap F \neq \emptyset$$
@@ -80,9 +79,9 @@ $$\hat\delta_D(q_0,w$)\in F <=> \hat\delta_N(q_0,w)\cap F \neq \emptyset$$
 L(D)=L(N)
 
 #### Intuizione
-- creiamo DFA son stati = insime di stati dell'NFA
+- creiamo DFA su n stati = insime di stati dell'NFA
 - DFA traccia tutti gli stati in cui NFA si può trovare durante la lettura della stringa
-- siccome NFA ha un n finito di stati, lo sono anche quell idi DFA (al massimo $2^n$)
+- siccome NFA ha un n finito di stati, lo sono anche quelli di DFA (al massimo $2^n$)
 
 #### Conseguenze 
 - ogni linguaggio riconosciuto da un NFA è **regolare**
@@ -97,10 +96,10 @@ dato un NFA $N$, definiamo $D$ dove
 Se si dimostra l'equazione
 $$\hat\delta_N(q_0,w)=\hat\delta_D(\{q_0\},w)$$
 si può concludere che 
-$$ w \in L(N) <=> \hat\delta(q_0,w)\cap F_N \neq \emptyset \ \ \ \ \ def. di L(N)$$
-$$<=> \hat\delta(\{q_0\},w\cap F_N\neq \emptyset \ \ \ \ equazione qui sopra$$
-$$<=> \hat\delta(\{q_0\},w) \in F_D  \ \ \ \  \ def. di F_D$$
-$$<=> W \in L(D) \ \ \ \ \ def. di L(D)$$
+$$ w \in L(N) <=> \hat\delta(q_0,w)\cap F_N \neq \emptyset \ \ \ \ \ def. di\ L(N)$$
+$$<=> \hat\delta(\{q_0\},w\cap F_N\neq \emptyset \ \ \ \ equazione\ qui\ sopra$$
+$$<=> \hat\delta(\{q_0\},w) \in F_D  \ \ \ \  \ def.\ di\ F_D$$
+$$<=> W \in L(D) \ \ \ \ \ def.\ di\ L(D)$$
 
 ### Esempio: stringhe che terminano con abb
 - Soluzione deterministica

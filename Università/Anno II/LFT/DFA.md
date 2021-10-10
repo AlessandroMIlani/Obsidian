@@ -4,19 +4,19 @@
 - Ricnoscere **sequenze di caraterei** che rappresentatno elementi atomici del programma
 	- tali sequenze di caratteri sono dette **Token** o **lessemi** 
 
-Prog come sequenza di caratteri -> Analizzatore lessicale (lexer) -> prog come sequenza di token
+Prog. come sequenza di caratteri -> Analizzatore lessicale (lexer) -> prog. come sequenza di token
 
-### token
+### Token
 - **Costate numerica intera**
 	- sequezna non vuota ci di cifre decimale (eventualmente preceduta da + o -)
 		- 0
 		- -42
 - **Costate numerica con virgola**
-	- due sequenze di cirfre decimali (di cui almeno 1 non vuota), seoarate da .
+	- due sequenze di cifre decimali (di cui almeno 1 non vuota), separate da .
 		- 0.5
 		- .5     
 - **identificatore**
-	- sequena non vuota di lettere,numeri e _ che non inizia per un numero e contiene alemno 1 carattere  $\neq$ da _
+	- sequenza non vuota di lettere, numeri e _ che non inizia per un numero e contiene almeno 1 carattere  $\neq$ da _
 		- _4a
 		- as3
 
@@ -25,26 +25,24 @@ Cos'è?
 - automa = macchina che riconosce stringhe
 - stati finiti = con *memoria finita* (richiedere "poche" cose dalla stringa)
 - input dell'automa = una stringa
-- output dell'automa = **si/no** se ricnosce o meno la stringa
+- output dell'automa = **si/no** se riconosce o meno la stringa
 
 ### Come funziona
-- legge la tringa **un simbolo alla volta** da sinistra verso destra
+- legge la stringa **un simbolo alla volta** da sinistra verso destra
 	- Ha una visione locale e limitata
 - ogni carattere letto altera lo stato dell'automa
-	- l'automa "ricorda"    le caratteristiche della stringa letta usando lo stato
-- quando la stringa è stata letta completamente rispone si/no se è sata riconosciuta o mneo
+	- l'automa "ricorda" le caratteristiche della stringa letta usando lo stato
+- quando la stringa è stata letta completamente risponde si/no se è stata riconosciuta o meno
 
-### Soluzione come automa a sati finiti
-(slide)
+### Soluzione come automa a stai finiti
 ```mermaid 
 stateDiagram-v2
-	q0 --> q1
-	q1 --> q0
-
+	q0 --> q1 :b
+	q1 --> q0 :b
 ```
-- ogni cerchio rapprenset auno stato dell'automa
-- gli archietti "b" rappresentano la transizione di stato, ovvero come cambia lo stato dell'automa a ogni estrazione di biglia
-- la freccia entrante di $q_0$ indica che ...
+- ogni cerchio rapprenseta uno stato dell'automa
+- gli archetti "b" rappresentano la transizione di stato, ovvero come cambia lo stato dell'automa a ogni estrazione di biglia
+- la freccia entrante di $q_0$ indica che $q_0$ è lo stato di partenza
 
 #### Definizione
 - Un **Automa a stati finiti** (DFA) è una quintupla $A=(Q,\sum,\delta,q_0,F)$
@@ -55,13 +53,15 @@ stateDiagram-v2
 	- $F \subseteq Q$ è l'iniseme di** stati finiti**
 
 ### Linguaggio riconosciuto da un DFA
-- la **funzione di transizione estesa** dell'automa $A = (Q, \sum, \delta, q_0, F)$ è la funzione (^ su delta)$\^{\delta} : Q x \sum^* -> Q$ definita per induzione sul suo secondo argomento come segue:
-$$\^{\delta} (q,\epsilon)=q \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \^{\delta} (q,wa) = \delta(\^{\delta} (q,w),a)$$
+- la **funzione di transizione estesa** dell'automa $A = (Q, \sum, \delta, q_0, F)$ è la funzione$\hat\delta : Q x \sum^* -> Q$ definita per induzione sul suo secondo argomento come segue:
+$$\hat{\delta} (q,\epsilon)=q \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \hat{\delta} (q,wa) = \delta(\hat{\delta} (q,w),a)$$
 
-- Il **linguaggio riconosciuto** (o accettato) dellìautoma $A = (Q, \sum, \delta, q_0, F)$ è denotato da L(A) e definito come segue:
-$$L(A)=^{def}\{w \in \sum^* | \^{\delta}(q_0,w) \in F\}$$ -> insieme delle stringhe che portano d'automa dal suo stato iniziale $q_0$ ad uno qualsiasi dei suoi stati finali
+- Il **linguaggio riconosciuto** (o accettato) dell'automa $A = (Q, \sum, \delta, q_0, F)$ è denotato da L(A) e definito come segue:
+$$L(A)=^{def}\{w \in \sum^* | \hat{\delta}(q_0,w) \in F\}$$ 
 
-- Un linguaggio L si dice **regolare** se esiste una automa A tale he L = L(A)
+-> insieme delle stringhe che portano l'automa dal suo stato iniziale $q_0$ ad uno qualsiasi dei suoi stati finali
+
+- Un linguaggio L si dice **regolare** se esiste un automa A tale he L = L(A)
 
 ### Tabella di transizione
 | Stato | b|
@@ -128,8 +128,8 @@ stateDiagram-v2
 
 - inizio a scrivere le transizioni per riconoscere **SOLO** una stringa
 	- es. riconoscere Ciao  c-->i-->a-->o 
-- aggiungo stato pozzo nel caso l'auto "perda le speranze"
-	- es. se prima lettera diversa da c (o seguita da letera inaspettata)
+- aggiungo stato pozzo nel caso l'automa "perda le speranze"
+	- es. se prima lettera diversa da c (o seguita da lettera inaspettata)
 	- es. lettere dopo la "o" (es. ciaoc / ciaoo)
 
 ```mermaid 

@@ -1,5 +1,5 @@
 ## Automi con $\epsilon$- transizioni
-Un automa a stati finiti con ε-transizioni (detto anche ε-NFA) è una quintupla: $A=(Q, \sum,\delta,q_0,F)$ dovre:
+Un automa a stati finiti con ε-transizioni (detto anche ε-NFA) è una quintupla: $A=(Q, \sum,\delta,q_0,F)$ dove:
 - Q insime finito di stati
 - $\sum$ e l'alfabeto riconosciuto dall'automa
 - $\delta:Q\ x\ (\sum \cup \{\epsilon \}$ -> $\wp(Q)$ è la **Funzione di transizione**
@@ -7,7 +7,7 @@ Un automa a stati finiti con ε-transizioni (detto anche ε-NFA) è una quintupl
 - $F ⊆ Q$ è l'insieme di stati finiti
 
 #### Note:
-- $\delta(q,a)$ è l'insieme degli stati in cui $\epsilon$-NFA può transire quando si trova nello stato $q$ leggendo il simbolo $a$
+- $\delta(q,a)$ è l'insieme degli stati in cui $\epsilon$-NFA può transitare quando si trova nello stato $q$ leggendo il simbolo $a$
 - $\delta(q,a)$ è l'insieme degli stati in cui $\epsilon$-NFA può **transire spontaneamente** quando si trova nello stato q, senza leggere alcun simbolo
 
 #### esempio: costanti numeriche con segno 
@@ -19,13 +19,13 @@ q1 --> q2 :0,1..,9
 q2 --> q2 :0,...9
 note left of q2: stato finale
 ```
-- questo automa si aspetti che l'automa inizi con un segno 
+- questo automa si aspetta che la stringa inizi con un segno 
 - Se voglio che riconosca anche costati senza sengo, devo aggiungere 10 transizioni da q0 a q2 (uno per cifra 0...9)
 	- oppure aggiungo una transizione spontanea da q0 a q1 $\epsilon$, e poi il riconoscimento delle cifre parte da q1.
 
 ## $\epsilon$-chiusura
 ### intuizione
-per definire il linguaggio riconosciutio da un $\epsilon$-NFA, è impostare riuscire a determinare quali statisono raggiungibili grazie alle $\epsilon$-transizioni
+per definire il linguaggio riconosciutio da un $\epsilon$-NFA, è importante riuscire a determinare quali statisono raggiungibili grazie alle $\epsilon$-transizioni
 
 ```mermaid 
 stateDiagram-v2 
@@ -35,11 +35,11 @@ q2 --> q2 :0,...9
 ```
 
 ### Definizione
-ECLOSE(q) è il più picoclo insieme t.c.
+ECLOSE(q) è il più piccolo insieme t.c.
 - q $\in$ ECLOSE(q)
 - se p $\in$ ECLOSE(q), allora $\delta(p,\epsilon) ⊆ ENCLOSE(q)$
 
-Quindi, se S è un insieme dio stati, definiamo ECLOSE(S) = $\bigcup_{q \in S}ECLOSE(q)$
+Quindi, se S è un insieme di stati, definiamo ECLOSE(S) = $\bigcup_{q \in S}ECLOSE(q)$
 
 ### Esempio 
 ```mermaid 
@@ -67,7 +67,7 @@ $$\hat\epsilon: Qx\sum^* -> \wp(Q)  \ \ \ \ \ \ \ \ \hat\delta(q,wa)=\{r \in ECL
 Dato un NFA N, esiste un $\epsilon$-NFA E, t.c. L(E) = L(N)
 
 ### Dim.
-Basta osservare che un NFA è un caso particolare di nun $\epsilon$-NFA
+Basta osservare che un NFA è un caso particolare di un $\epsilon$-NFA
 
 #### Conseguenze
 - Ogni linguaggio regolare è riconoscouto da un $\epsilon$-NFA

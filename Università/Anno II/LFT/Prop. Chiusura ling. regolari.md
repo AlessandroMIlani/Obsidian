@@ -8,20 +8,20 @@
 - $L^R$
 
 ### Unione e concatenzazoine
-- i Linguaggi sono chiusi per unione e concatenzazione
+ I linguaggi sono chiusi per unione e concatenazione
 
 ### Complemento
-Sono chiusi per complemento.
+Sono chiusi per complemento
 
 **Dimostrazione**
-- L linguaggio regolare
+- $L$ linguaggio regolare,
 	Dunque esiste DFA A t.c. L=L(A)
 	Definiamo $B=(Q,\sum,\delta,q_0,Q_F)$ e osserviamo che $w \in L(A)$ <=>$\hat\delta(q_0,w) \in F$<=>$w \not∈ L(B)$
 	concludiamo che $\overline L=L(B)$ e che $\overline L$ è regolare
 	
 	### Intersezione
 	Sono chiusi per intersezione
-	**Dimostraizone**
+	**Dimostrazione**
 	- siano L1 ed L2 linguaggi su un alfabeto $\sum$
 	Usando De Morgan, osserviamo -> $L_1 \cap L_2 = \overline{\overline{L_1 \cap L_2}} = \overline{\overline L_1 \cup \overline L_2}$
 	 
@@ -29,7 +29,7 @@ Sono chiusi per complemento.
 	
 	### Intersezione (costruzione diretta -> da copiare)
 	
-	### DIffernza
+	### Differenza
 	Sono chiusi per differenza
 	
 	** Dimostrazione**

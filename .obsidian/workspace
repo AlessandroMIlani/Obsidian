@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/LFT/ε-Transizioni.md",
+            "file": "Università/Lezioni/12-10-2021 EPS.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "42e9fae7b36de4c5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Università/Lezioni/12-10-2021 EPS.md",
             "mode": "preview"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/LFT/ε-Transizioni.md",
+                "file": "Università/Lezioni/12-10-2021 EPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +99,15 @@
   },
   "active": "828e773b6b50c763",
   "lastOpenFiles": [
-    "Università/Anno II/LFT/ε-Transizioni.md",
-    "Università/Anno II/LFT/NFA.md",
-    "Università/Anno II/LFT/DFA.md",
-    "Università/Anno II/LFT/Introduzione.md",
-    "Università/Lezioni/06-10-2021 LFT.md",
-    "Università/Lezioni/05-10-2021 SO.md",
-    "Università/Anno II/LFT/Prop. Chiusura ling. regolari.md",
-    "Università/Anno II/LFT/Espressioni Regolari.md",
+    "Università/Lezioni/12-10-2021 EPS.md",
+    "Università/Lezioni/12-10-2021 SO.md",
     "Università/Lezioni/06-10-21 SO.md",
-    "Università/Anno II/SO/Processi.md"
+    "Università/Anno II/SO/Thread.md",
+    "Università/Anno II/SO/Scheduling.md",
+    "Università/Anno II/SO/Storia.md",
+    "Università/Lezioni/21-09-2021 SO.md",
+    "Università/Lezioni/22-09-2021 SO.md",
+    "Università/Lezioni/23-09-2021 EPS.md",
+    "Università/Lezioni/28-09-2021 SO.md"
   ]
 }

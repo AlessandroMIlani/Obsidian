@@ -4,23 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "828e773b6b50c763",
+        "id": "2961e7eaa0eac8e3",
         "type": "leaf",
+        "dimension": 52.756410256410255,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/12-10-2021 EPS.md",
+            "file": "Università/Lezioni/13-10-2021 SO.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "42e9fae7b36de4c5",
+        "id": "9984bfb9d8901a4b",
         "type": "leaf",
+        "dimension": 47.243589743589745,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/12-10-2021 EPS.md",
+            "file": "Università/Lezioni/13-10-2021 SO.md",
             "mode": "preview"
           }
         }
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/12-10-2021 EPS.md",
+                "file": "Università/Lezioni/13-10-2021 SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "828e773b6b50c763",
+  "active": "2961e7eaa0eac8e3",
   "lastOpenFiles": [
-    "Università/Lezioni/12-10-2021 EPS.md",
+    "Università/Lezioni/13-10-2021 SO.md",
     "Università/Lezioni/12-10-2021 SO.md",
+    "Untitled.md",
+    "Università/Lezioni/14-10-2021 EPS.md",
+    "Università/Lezioni/12-10-2021 EPS.md",
     "Università/Lezioni/06-10-21 SO.md",
     "Università/Anno II/SO/Thread.md",
     "Università/Anno II/SO/Scheduling.md",
     "Università/Anno II/SO/Storia.md",
-    "Università/Lezioni/21-09-2021 SO.md",
-    "Università/Lezioni/22-09-2021 SO.md",
-    "Università/Lezioni/23-09-2021 EPS.md",
-    "Università/Lezioni/28-09-2021 SO.md"
+    "Università/Lezioni/21-09-2021 SO.md"
   ]
 }

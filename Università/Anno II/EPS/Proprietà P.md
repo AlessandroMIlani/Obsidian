@@ -84,3 +84,5 @@ $P(B) = \sum_{i=1}^nP(B|Ai)P(Ai) = \sum_{i=1}^nP(B \cap Ai)$
  
   Teorema di bayes
  - $P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$ <- permette di invertire
+
+[[indipendenz coll.event.]]

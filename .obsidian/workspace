@@ -4,26 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2961e7eaa0eac8e3",
+        "id": "b28efb3e583ff518",
         "type": "leaf",
-        "dimension": 52.756410256410255,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/13-10-2021 SO.md",
+            "file": "Università/Anno II/EPS/indipendenz coll.event..md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "9984bfb9d8901a4b",
+        "id": "26a3d38fbacdb01d",
         "type": "leaf",
-        "dimension": 47.243589743589745,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/13-10-2021 SO.md",
-            "mode": "preview"
+            "file": "Università/Lezioni/14-10-2021 EPS.md",
+            "mode": "source"
           }
         }
       }
@@ -81,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/13-10-2021 SO.md",
+                "file": "Università/Anno II/EPS/indipendenz coll.event..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2961e7eaa0eac8e3",
+  "active": "b28efb3e583ff518",
   "lastOpenFiles": [
-    "Università/Lezioni/13-10-2021 SO.md",
-    "Università/Lezioni/12-10-2021 SO.md",
-    "Untitled.md",
+    "Università/Anno II/EPS/indipendenz coll.event..md",
     "Università/Lezioni/14-10-2021 EPS.md",
-    "Università/Lezioni/12-10-2021 EPS.md",
-    "Università/Lezioni/06-10-21 SO.md",
-    "Università/Anno II/SO/Thread.md",
-    "Università/Anno II/SO/Scheduling.md",
-    "Università/Anno II/SO/Storia.md",
-    "Università/Lezioni/21-09-2021 SO.md"
+    "Untitled.md",
+    "Università/Anno II/EPS/Proprietà P.md",
+    "Università/Anno II/LFT/Min. automi stat.fin.det..md",
+    "Università/Lezioni/13-10-2021 LFT.md",
+    "Università/Anno II/LFT/Untitled.md",
+    "Università/Anno II/LFT/Pumpling Lemma.md",
+    "Università/Anno II/LFT/ε-Transizioni.md",
+    "Università/Lezioni/12-10-2021 LFT.md"
   ]
 }

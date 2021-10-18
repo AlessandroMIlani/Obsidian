@@ -1,0 +1,89 @@
+## Pumpling lemma per linguaggi regolari
+
+### Teorema
+_per ogni_ linguaggio regolare L _esiste_ $n \in N$ t.c., _per ogni_ $w \in L$ con $|w| \geq n$, _esistono_ x,y e z t.c. $w = xyz$
+
+1. $y \neq \epsilon$
+2. $|xy| \leq n$
+3. $xy^kz \in L$ per ogni $K \geq 0$
+
+![[Pasted image 20211012100918.png]]
+
+
+
+### Esempio: $a^kb^k$ non è regolare
+dimostrare che $L = \{a^kb^k | k \geq 0\}$ non è regolare facendo vedere che per L il pumpling lemma non vale
+- un ipotetico automa, per verificare questo linguaggio, deve saper contare un nuimero indeterminato di a, e poi verificare che ci sia lo stesso numero di b
+#### Dimostrazione
+1. Supponiamo che esista n con le proprietà del puimpling lemma
+1. Considero la stringa $w = a^nb^n$ che è in L e ha la proprietà $|w| = 2n \geq n$
+1. Devono esistere x,y e z t.c. $w = xyz$ e che soddisfano le condizionni 1-3 del lemma
+2. (finire da slide)
+
+## Dimostraizone lemma
+Sia L un linguaggio regolare:
+- Dunque esiste un DFA t.c. L = L(A)
+- Poniamo n = |Q|, ovvero n è il nuemro di stati di un DFA che riconosce L
+- Premdinao $w \in L$ t.c. $|w| \geq n$deve essere $w = a_1a_2...a_m$ con $m \geq n$
+Se rappresentiamo il cammino fatto da $A$ per riconoscere $w$ come segue:
+```mermaid 
+stateDiagram-v2 
+	
+	q0 --> q1 :a_1
+	q1 --> q2 :a_2
+	q2 --> q(m_1) :a_3...a_m-1
+	q(m_1) --> qm :a_m
+```
+notiamo che questo cammino passa attraverso m +1 stati
+
+- Siccome $m \geq n$ abbiamo $m+1 > n$. Ovvero, gli stati attraversati non possono essere tutti distinti, perché l’automa ne ha solo $n$. 
+
+Deduciamo che il cammino fatto da A può essere rappresentato così:
+```mermaid 
+stateDiagram-v2 
+	
+	q0 --> qi :a_1...a_i
+	qi --> qj :a_i+1...a_j
+	qj --> qm :a_j+1...a_m
+```
+dove $q_i = q_j$ e $i < j$
+
+- Possiamo supporre. senza perdere in generalità, che $q_i = q_j$ sia il primo stato che si ripete in questo cammino.
+Il cammino fatto da A può allora essere rappresentato anche così:
+```mermaid 
+stateDiagram-v2 
+	
+	q0 --> qi=qj :a_1...a_i
+	qi=qj --> qi=qj :a_i+1...a_j
+	qi=qj --> qm :a_j+1...a_m
+```
+
+Ora definiamo le tringhe x,y e z come segue
+- $x =a_1a_2...a_i$
+- $y=a_{i+1}...a_j$
+- $z=a_{j+1}...a_m$
+
+notiamo che:
+1. $y \neq \epsilon$ in qunaot i < j dunque in y c'è almeno un simbolo
+2. |xy| $\leq$ n in uqaot $q_i = q_j$ è il primo sdtato che si ripete e quindi gli stati da $q_0$ a $q_j$ sono al masismo n +1 attraversati leggendo al masismo n simboli su w
+3. $xy^kz \in L$ per ogni $k \geq 0$ in quanrto tutti i cammini etichettati con $xy^kz$ portano l'automa da $q_0 \ a \ q_m$
+
+### Esempio $a^k$ con k primo non è regolare
+Dimostare che  $L = \{a^k |\ k \  primo \}$ non è regolare facendo vedere che per L il suo pumpling lemma non vale
+
+Supponiamo per assurdo che esista n con le proprietà enunciate nel pumpling lemma
+
+Consideriamo la stringa $w = a^p$ dove p è un numero primo $p \geq n +2$. Siamo sempre in grado di trovare p con questa proprità in quanto esistono infiniti numeri primi. inoltre, la tringa w è in L e ha la proprità $|w| \geq n$.
+
+devono esistere x, y e z t.c. $w = xyz$ e che soddisfano le prop. 1-3
+
+Definiamo $m = |y|$, da cui segue $|xz|=p-m$.
+  - Dalle condizioni 1-2 sappiamo che $1 \leq m \leq n$ 
+  - Dalla condizione 4 sappiramo $xy^{p-m}z \in L$.  Tutta vai:
+  - $$ |xy^{p-m}z| = |xz| + (p-m)|y| = p -m+(p-m)m=(p-m)(m+1)$$
+
+e ora concludiamo che $|xy^{p-m}z| **non è primo** in quanto:
+- da $1 \leq m$ deduco $2 \leq m +1$ 
+- da $m \leq n$ e $p \geq n+2$ deduco $p-m\geq 2$
+
+[[Min. automi stat.fin.det.]]

@@ -92,7 +92,7 @@ V(S){
 ```
 Se S incrementa da -2 a -1, si accorge che c'è qualche processo in coda, e lo risveglia
 
-#### Seafori Contatori
+#### Semafori Contatori
 1. Ho un buffer da 6 "slot"
 1. inizializzo S a 6
 2. ad ogni Processo che entra in coda, sottraggo 1 ad S

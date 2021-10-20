@@ -1,1 +1,3 @@
-Appunti Uni presi con Obsidin
+## Volt Obsidian
+- Appunti Anno I -> Incompleti 
+- Appunti Anno II -> WiP

@@ -102,3 +102,5 @@ Se S incrementa da -2 a -1, si accorge che c'è qualche processo in coda, e lo r
 - Z(s) parte quando s è = 0
 	- es. S=n con c. = nuemro rpocessi
 	- Z parte quando tutti i processi n sono finiti 
+
+[[Sincronizzazione]]

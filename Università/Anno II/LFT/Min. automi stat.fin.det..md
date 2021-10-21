@@ -73,3 +73,34 @@ q2 --> q2 :2
 ![[Pasted image 20211013123756.png]]
 
 ![[Pasted image 20211013125750.png]]
+
+## indistinguabilità come equivalenza
+**Proposizione**
+L'indistinguibilità è una relazione di equivalenza, ovvero è: riflessima, simmetrica e transitiva
+
+**Notazione**
+Fissato DFA:
+- indichiamo con ∼ la relazione di indistinguibilità tra stati di A, ovvero p∼q se e solo se $\hat\delta(p,w)\in F <=> \hat\delta(q,w) \in F$ $\forall w \in \sum^*$
+- scriviamo [p] per la classe di equivalenza di p
+- Scriviamo X/∼per l'insime quoziente di X rispetto a ∼
+
+## Costruione dell'automa minimo
+Dato un DFA, l'automa minimo corrsipondente è 
+- $(Q/∼,\sum,\delta',[q_0],F/∼)$-> in cui -> $\delta'([p],a)=[\delta(p,a)]$
+	- per ogni $p \in Q$ ed $a \in \sum$
+
+è impossibile ridurre ulteriormente il numero di stati dell'automa
+
+## Equivalenza di automi
+L'aloritmo riempi tabella può anche riconoscere se 2 automi sono equivalenti
+
+**input**
+Dati 2 DFA A1,A2 in cui posso assumere: $Q1 \cap Q2 = \emptyset$
+**output**
+Vero se L(A1) = L(A2) e falso altrimenti
+**Algoritmo**
+1. creo l'unione dei 2 DFA dove $\delta(q,a)=\{_{\delta_2(q,a)\ se\  q \in Q_2}^{\delta_1(q,a)\ se \ q \in Q_1}$
+2. Si esegue l'algoritmo riempi tabella su A
+3. A1 e A2 sono eq. se e solo se q1 e q2 sono indistinguibili in A
+
+[[Linguaggi Liberi]]

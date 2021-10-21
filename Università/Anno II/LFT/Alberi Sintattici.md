@@ -1,27 +1,3 @@
-
-## Esempio: comando di assegnamento in Java
-grammatica: $$(\{S,R,E\},\{=,[,],c,x\},P,S)$$
-
-In cui P è l'insieme di produzioni
-- S -> R = E
-	- R -> x | R[E]
-	- E -> c | R
-
-## Esercizi
-1\)  $(\{S\},\{a,b\},\{S -> \epsilon | aaSb\},S)$	
-- S => $\epsilon$ -> stringa vuota
-- S -> aaSb (riutilizzo la prima produzione) => aab
-- S -> aaSb (riutilizzo 2° prod.) -> aaaaSbb ($1^a$ prod)=> aaaabb ...
-
-$L(G) =\{a^{2n}b^n|n \geq 0\}$
-
-2\) Linguaggio generato dalla stringa (ab)*
-- $\epsilon$, ab, abab. ababab,ab...ab
-S -> $\epsilon$ | abS
-- $(S,ab,P,S)$
-
----
-
 # Alberi sintattici, derivazioni canoniche e ambiguità
 
 E -> x | y | E + E | E \* E | (E)

@@ -62,7 +62,7 @@ q2 --> q2 :2
 ### Algoritmo
 1. all'inizio marchio nessuna coppia è marchiata come distinguibili
 2. Si marcano le coppie {p,q} in cui $p \in F$ e $q \notin F$
-3. Se sistono $p,q \in Q$ e $ a \in \sum$ t.c. {$\delta$(p,a),$\delta$(q,a)} è marcata come distinguibile, si marca anche {p,q} come distinguibile
+3. Se sistono $p,q \in Q$ e $a \in \sum$ t.c. {$\delta$(p,a),$\delta$(q,a)} è marcata come distinguibile, si marca anche {p,q} come distinguibile
 4. Si ripete il passo 3 finchè non vengono a mancare nuove coppie distinguibili
 
 ### Esecuzione algoritmo

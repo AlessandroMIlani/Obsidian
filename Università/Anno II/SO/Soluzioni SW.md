@@ -39,6 +39,6 @@ Fleg[i]=false;				<-- sezione d'uscita
 
 Fonde i 2 metodi precendenti per risolverne i problemi
 
-![[Pasted image 20211015175040.png]]
+![[Pasted image 20211015175040 1.png]]
 
 [[Proc. conc. asinc.]]

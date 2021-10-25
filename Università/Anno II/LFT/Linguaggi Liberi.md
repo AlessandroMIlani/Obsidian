@@ -15,7 +15,7 @@ Una grammatica è una quadrupla $G = (V,T,P,S)$
 - $S \in V$ è il simbolo iniziale della grammatica
 
 **Convenzioni**
-![[Pasted image 20211019102817.png]]
+![[Pasted image 20211019102817 1.png]]
 
 ## Derivazioni
 **Definizioni**

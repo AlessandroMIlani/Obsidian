@@ -44,12 +44,25 @@ G=({E},{0,1...,9,+,\*,(,)},{E -> 0| ..| 9 } ) (__finire copia__)
 **Def**
 Una grammatica è ambigua, se esistono più alberi sintattici distinti con lo stesso prodotto
 
-## Ambiguità  e derivazioni (fninire)
+## Ambiguità  e derivazioni 
 - bastano 2 aberi distinti con lo stesso prodotto per dire che una grammatica è ambigua
 - non bastantno 2 derivazioni distinte per dire che una grammatica è ambigua
 
+Es:
+- E => E + E => 1 + E => 1 + 2
+- E => E + E => E + 2 => 1 + 2
+
+#### Osservazioni
+- l'ordine in cui scrivo variabili diverse è irrilevante
+- è rilevante se è la stessa variabile a venir scritta in modi diversi
+- imponendo la strittura delle var. secondo un certo ordine, posso individurare l'ambiguità guardando le derivazioni
 
 ## Derivazione canonica
 **Def**
-si dice Defivazione canonica sinisra, se ad ogni passo di riscrittura, viene riscritta la variabile più a sinistra(stesso ragionamento per la speculare a destra).
+si dice (X =>$^*\alpha$) Derivazione a sinistra, se ad ogni passo di riscrittura, viene riscritta la variabile più a sinistra(stesso ragionamento per la speculare a destra).
 Useremo =>$_{lm}$ per le derivazionii a sinistra (\_rm per quelle a destra)
+
+**Proposizione**
+Se esistono due deirvaizoni canoniche distinte di G per derivare la stessa stringa, allora G è ambigua
+
+[[Eliminazione Ambiguità]]

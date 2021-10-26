@@ -6,6 +6,7 @@
       {
         "id": "8d776068e3a1b460",
         "type": "leaf",
+        "dimension": 50.128205128205124,
         "state": {
           "type": "markdown",
           "state": {
@@ -17,6 +18,7 @@
       {
         "id": "c24bc094babb756a",
         "type": "leaf",
+        "dimension": 49.871794871794876,
         "state": {
           "type": "markdown",
           "state": {
@@ -100,6 +102,7 @@
   "active": "8d776068e3a1b460",
   "lastOpenFiles": [
     "Università/Lezioni/10-26 SO.md",
+    "Università/Anno II/Immagini/Pasted image 20211026113543.png",
     "Università/Anno II/Immagini/Pasted image 20211026113030.png",
     "Pasted image 20211026112923.png",
     "Pasted image 20211026112844.png",
@@ -107,7 +110,6 @@
     "Università/Anno II/Immagini/Pasted image 20211012103955 1.png",
     "Università/Anno II/SO/Soluzioni SW.md",
     "Università/Anno II/SO/Soluzioni HW.md",
-    "Università/Anno II/SO/Proc. conc. asinc..md",
-    "Università/Anno II/SO/Thread.md"
+    "Università/Anno II/SO/Proc. conc. asinc..md"
   ]
 }

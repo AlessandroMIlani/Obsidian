@@ -172,24 +172,4 @@ Alcuni linguaggi sfruttano livelli ancora più astratti dei semafori per garanti
 
 ---
 
-## Transazioni
-- CC-cliente = 100
-- CC-venditore = 1000
-
-Transazione
-- CC-cliente = 50
-- CC-venditore = 1050
-
-Che succede le la transizione si interrompe a metà? (tolgo 50 al cliente, ma il venditore rimane a 1000)?
-- Il sistema rimane in uno stato inconsistentea
-	- Bisogna riportare il tutto allo stato consistente precedente (riportare CC-cliente = 100)
-	- quanto si completano tutti i passi, si dice che si esegue un "commit", se qualcosa va storto e si torna indietro, si fa un "abort"
-
-**Memorie Volatili**
-- Si può utilizzare un logfile $\in$ filesystem (rimane in una memoria persistente)
-	- Serve un formalismo da usare nel log "<T, start> / <write, var, prec, new> .... <T, end>"
-	- Nel caso perda i dati nella memoria volatile, recupero il log e verifico le transazioni.
-		- Per quelle con start e end, sono a posto e concluse
-		-   Per quelle con start ma non end, posso esseguirene il rollback 
-	- Ogni tot. ci possono essere dei checkpoint (tutto il precedente è ok, quinid posso non leggerlo)
-	- Scrivendo in memoria secondaria, più lenta, vado a rallentare l'esecuzione   
+[[Transazioni]]

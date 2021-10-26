@@ -70,9 +70,9 @@ q2 --> q2 :2
 - si marchiano le caselle di delle coppie distinguibili
 - itero il passo 3
 
-![[Pasted image 20211013123756.png]]
+![[Pasted image 20211013123756 1.png]]
 
-![[Pasted image 20211013125750.png]]
+![[Pasted image 20211013125750 1.png]]
 
 ## indistinguabilità come equivalenza
 **Proposizione**

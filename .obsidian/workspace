@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8d776068e3a1b460",
+        "id": "cf728d16f427b5d8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/10-27 LFT.md",
+            "file": "Università/Lezioni/28-10 EPS.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "7b633989fe425224",
+        "id": "62e3f58101aed59d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/10-27 LFT.md",
-            "mode": "source"
+            "file": "Università/Lezioni/28-10 EPS.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/10-27 LFT.md",
+                "file": "Università/Lezioni/28-10 EPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8d776068e3a1b460",
+  "active": "cf728d16f427b5d8",
   "lastOpenFiles": [
-    "Università/Lezioni/10-27 LFT.md",
-    "Università/Lezioni/10-26 SO.md",
-    "Università/Anno II/Immagini/Pasted image 20211026113543.png",
-    "Università/Anno II/Immagini/Pasted image 20211026113030.png",
-    "Pasted image 20211026112923.png",
-    "Pasted image 20211026112844.png",
-    "Università/Anno II/SO/Sincronizzazione.md",
-    "Università/Anno II/Immagini/Pasted image 20211012103955 1.png",
-    "Università/Anno II/SO/Soluzioni SW.md",
-    "Università/Anno II/SO/Soluzioni HW.md"
+    "Università/Lezioni/28-10 EPS.md",
+    "Università/Anno II/EPS/indipendenz coll.event..md",
+    "Università/Anno II/EPS/Proprietà P.md",
+    "Università/Lezioni/10-05 EPS.md",
+    "Altro/Position Paper.md",
+    "Università/Anno I/Prog II/Graphics.md",
+    "Untitled.md",
+    "Università/Lezioni/20-27 SO.md",
+    "AM1.md",
+    "Università/Lezioni/10-27 LFT.md"
   ]
 }

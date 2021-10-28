@@ -1,4 +1,11 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "$Im",
+    "Pasted",
+    "image",
+    "png",
+    "prob"
+  ]
 }

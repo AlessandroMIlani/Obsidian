@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/28-10 EPS.md",
+            "file": "Università/Lezioni/10-26 SO.md",
             "mode": "source"
           }
         }
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/28-10 EPS.md",
+            "file": "Università/Lezioni/10-26 SO.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/28-10 EPS.md",
+                "file": "Università/Lezioni/10-26 SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cf728d16f427b5d8",
+  "active": "62e3f58101aed59d",
   "lastOpenFiles": [
-    "Università/Lezioni/28-10 EPS.md",
+    "Università/Lezioni/10-26 SO.md",
+    "Università/Lezioni/10-28 EPS.md",
+    "Università/Lezioni/10-26 LFT.md",
+    "Università/Lezioni/10-20 SO.md",
+    "Università/Lezioni/10-21 EPS.md",
+    "Università/Lezioni/10-27 SO.md",
+    "Università/Lezioni/10-27 LFT.md",
     "Università/Anno II/EPS/indipendenz coll.event..md",
-    "Università/Anno II/EPS/Proprietà P.md",
-    "Università/Lezioni/10-05 EPS.md",
     "Altro/Position Paper.md",
-    "Università/Anno I/Prog II/Graphics.md",
-    "Untitled.md",
-    "Università/Lezioni/20-27 SO.md",
-    "AM1.md",
-    "Università/Lezioni/10-27 LFT.md"
+    "Università/Anno II/EPS/Proprietà P.md"
   ]
 }

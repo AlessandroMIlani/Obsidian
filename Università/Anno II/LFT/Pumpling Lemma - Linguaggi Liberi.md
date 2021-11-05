@@ -1,0 +1,62 @@
+## Pumpling lemma per i linguaggi liberi
+
+#### Linguaggi non liberi
+- Cerchiamo una proprietà P che vale per tutti i linguaggi liberi 
+$$L \ libero => L\ soddisfa \ P$$
+
+- se un linguaggio L non soddisfa P -> **non è un linguaggio libero**
+
+### Teorema
+per ogni linguaggio libero L esiste $n \in N$ tale che per ogni $z \in L$ con $|z| \geq n$ esistono u,v,w,x,y t.c. $z \neq uvwxy$ inoltre:
+1. $vx \neq \epsilon$ --> contiene 2 sotto stringhe, entrambe non vuote
+2. $|vwz| \leq n$   --> e ed x non sono troppo distanti l'uno dal altro
+3. $uv^kwx^ky \in L$ per ogni $x \geq 0$ --> se replico $v$ ed $x$ k volte, continuo a ottenere stringhe appartenenti al linguaggio
+
+
+### Linguaggio L = $a^kb^kc^k$ non è libero
+Dimostrate che L non è libero facendo vedere che per L il pumpling lemma non vale
+
+**Dimostriamo per assurdo**, che esista n con le proprietà enunciate in precedenza
+
+- Consideriamo $z = z^nb^nc^n$ che è in L e ha la proprietà $|z| = 3n \geq n$
+- Devono assistere $u,v,w,x,y$ t.c. $z= uvwxzy$ e che soddisfa le 3 condizioni indicate in precedenza
+	- Da 1. Sappiamo che $vx \neq \epsilon$
+	- Da 2. Sappiamo che $vwx$ non può contenere sia a che c, in quanto in  $z$ la a più a destra è separata dalla c più a sinistra da $n$ b
+		- o $vx$  non contiene a
+		- o $vx$ non contiene c 
+	- Da 3 sappiamo che $wxy \in L$
+- Ora, se $vx$ non contiene a, in $uwy$  il numero di a è rimasto n, mentre il numero di b e/o c è diminuito.  
+Se $vx$ non contiene c, in $uwy$ il numero di c è rimasto n, mentre il numero di a e/o  di b è diminuito. In entrambi i casi abbiamo raggiunto una contraddizione
+
+### Programma per dimostrare il pumpling lemma
+1. Per ogni grammatica libera $G$ può essere trasformata in una forma (**Forma normale di Chomsky**) che è quasi equivalente a G e in cui le produzioni sono particolarmente semplici
+2. Esiste una forma normale di Chomsky di una grammatica è conseguenza di una serie di trasformazioni
+3. Per ogni grammatica in forma normale di Chomsky, dimostriamo che la relazione forte tra la *profondità di un albero sintattico* della grammatica è la *lunghezza del suo prodotto*
+
+## Forma normale di Chomsky
+**Definizione**
+Diciamo ce una grammatica è in forma normale di Chomsky se ogni usa produzione è della forma:
+- A --> BC dove A,B e C sono variabili, oppure
+- A --> a dove A è una variabile ed a è un termine
+
+**OSS**
+Nessuna variabile è annullabile in una grammatica CNF.
+Infatti ogni derivazione A => ... aumenta o lascia invariata la lunghezza ella stringa derivata da A, la quale è una stringa lunga 1
+
+**Teorema**
+Se G è una grammatica che genera almeno una stringa non vuota, allora essite una grammatica $G'$ in una forma normale di Chomsky t.c. $L(G') = L(G)-\{\epsilon\}$
+
+## Alberi sintattici di grammatiche CNF
+**Teorema**
+Sia G una grammatica in forma normale di Chomsky e w il suo prodotto di un albero sintattico di G avente profondità $n \leq 1$. allora $|w| \leq w^{n-1}$
+
+**Dimostrazione**
+Induzione sulla profondità n dell'albero.
+- Caso n = 1: L'albero ha una radice A e con un unica foglia a che coincide con w.
+Concludiamo $1 = |w| \leq 2^{n-1}=1$
+- Caso induttivo $n >1$: L'albero ha una radice A con esattamente 2 figli etichettati B e C alla radice di 2 sotto alberi la cui profondità *non superiore* a n -1 
+	- Vetti $w_1\ e \ w_2$ i prodotti di questi 2 sotto alberi, abbiamo $w = w_1w_2$
+	- Usando l'ipotesi induttiva, deduciamo -> $|w_1| \leq w^{n-2}$ e $|w_2|\leq w^{n-2}$
+	- Concludiamo $|w| = |w_1|+|w_2| \leq e^{n-2} + 2^{n-2} = 2^{n-1}$ 
+
+# Pumpling lemma dimostrazione -> Slide

@@ -9,19 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/10-26 SO.md",
+            "file": "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md",
             "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "62e3f58101aed59d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Università/Lezioni/10-26 SO.md",
-            "mode": "preview"
           }
         }
       }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/10-26 SO.md",
+                "file": "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "62e3f58101aed59d",
+  "active": "cf728d16f427b5d8",
   "lastOpenFiles": [
-    "Università/Lezioni/10-26 SO.md",
-    "Università/Lezioni/10-28 EPS.md",
-    "Università/Lezioni/10-26 LFT.md",
-    "Università/Lezioni/10-20 SO.md",
-    "Università/Lezioni/10-21 EPS.md",
-    "Università/Lezioni/10-27 SO.md",
+    "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md",
+    "Università/Lezioni/11-03 LFT.md",
+    "Università/Anno II/LFT/Relazione CFG-PDA.md",
+    "Università/Lezioni/11-02 LFT.md",
+    "Università/Anno II/LFT/Automi a pila.md",
     "Università/Lezioni/10-27 LFT.md",
-    "Università/Anno II/EPS/indipendenz coll.event..md",
-    "Altro/Position Paper.md",
-    "Università/Anno II/EPS/Proprietà P.md"
+    "Università/Lezioni/10-28 EPS.md",
+    "Università/Anno II/LFT/Eliminazione Ambiguità.md",
+    "Università/Lezioni/10-26 LFT.md",
+    "Università/Lezioni/10-26 SO.md"
   ]
 }

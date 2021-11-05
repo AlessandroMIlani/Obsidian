@@ -22,3 +22,5 @@ Note:
 
 **intuizione**
 - In ogni grammatica che genera $L$ ci sono semrpe 2 derivbazioni canoniche distinte che generano una stringa della forma $a^nb^nc^nd^n$
+
+[[Automi a pila]]

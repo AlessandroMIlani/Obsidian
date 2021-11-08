@@ -113,3 +113,5 @@ C1 prende sale->olio->aceto / C2 prende olio->aceto->sale / C3 prende aceto->sal
 2. Assenza di prelazione
 
 Non si verifica a tutte le esecuzioni. Il codice è corretto, ma poi dipende dalla sincronizzazione dei processi durante la singola esecuzione
+
+[[Rilevare DeadLock]]

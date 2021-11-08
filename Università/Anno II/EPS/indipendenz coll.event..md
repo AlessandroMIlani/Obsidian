@@ -8,3 +8,5 @@ Dico che la collezione m deventi $(Ai)^i_{i=1}$ è una collezione di eventi muti
 **Oss**: la mutua indipendeza implica l'indipendenza a 2 a 2
 
 **Oss**: l'indipendenza 2 a 2 non implica la mutua indipendenza
+
+[[Variabili aleatorie]]

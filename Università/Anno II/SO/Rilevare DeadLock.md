@@ -1,0 +1,148 @@
+## Rilevare la presenza di DeadLock
+Abbiamo bisogno di catturare informazioni riguardo risorse e processi
+- Nello specifico, quelle relative all'allocazione delle risorse ai processi
+
+### Grafo
+ Composto da nodi e archi
+ - 2 tipi di nodi:
+ 	1. processi -> rappresentati come palini, con accanto un nome
+ 	2. tipi(classi) di risorse -> quadrati, con accanto un nome
+ 		- se quadrettino vuoto, ho una sola istanza di quella risorsa ù
+ 		- Se ho più istanze, metto dei puntini dentro il quadrettino (3 istanze -> 3 puntini)
+
+- 2 tipi di archi
+	1. arco di richiesta -> rappresentato come freccia da pallino a quadratino
+		- "il processo P ha chiesto (al SO) un instanza alla risorsa R"
+	1. arco di assegnazione -> da dentro il quadrato a pallino   
+		- l'istanza è stata accettata e viene assegnata la risorsa
+
+Esempio:
+- Nella situazione di R2, l'assegnazione aP2 o P3, dipende dal SO
+![[Pasted image 20211027142103.png]]
+
+
+**Grafo del DeadLock dei cuochi**
+![[Pasted image 20211027143803.png]]
+
+##### Esempio "Spooler della stampante"
+- processo P di stampa (stampa un documento su carta) --> interagisce con la stampante
+- Molte stampanti gestiscono  pagina per volta.
+	- P manda una pagina, aspetta, manda la seconda ecc...
+	-  Processo lento
+- Qui interviene lo Spooler, un processo intermediario
+	- P salva il documento e poi lo manda allo spooler, che penserà a interagire con la stampante
+Es.
+- 2 processi produttori P e P' che creano i documenti
+- spooler processo consumatore
+- salvano nell'area di ram accessibile allo spooler
+- quando lo spooler ha finito di stampare, libera la ram
+	- Può mandare in stampa un documento, solo quando è tutto all'interno della sua zona di memoria
+- Si può verificare  un **Deadlock** quando vengono occupate tutte le cella dai documenti di P e P', ma tutti e 2 i documenti sono ancora incompleti.
+- per risolvere, si frutta un processo di streaming
+###### Streaming
+I dati vengono prodotti da P, e lo spooler li consuma nel frattempo, senza attendere la completa produzione di P.
+
+---
+#### Strategie di Havnder
+Strategie di prevenzione del DeadLock
+- non deve esserci muta esclusione
+
+---
+Imporre che i processi richiedano tutte le risorse necessarie prima di proseguire
+- P: richiedi tutte le risorse \[Sospensiva\]
+	- se qualche risorsa non è disponibile, P viene sospeso e non gli viene assegnata nessuna delle risorse libere 
+- Se sono tutte disponibili, esegue (e poi rilascia le risorse) 
+
+Inibisce la situazione di Possesso e attesa, ma ha 2 difetti
+1. Non consente un uso efficiente delle risorse
+	- parte delle risorse rimarranno assegnate ma non utilizzate per molto tempo
+2. rischio di starvation per i processi che richiedono molte risorse  
+---
+P: richiede risorse in successione:
+R(1)..R(2)..R(K)
+Se arrivati ad R(K), la risorsa è occupata, vengono rilasciate tutte le risorse precedenti (prelazione)
+- maggior efficienza nell'uso delle risorse
+- Ma la prelazione ha dei costi, e il processo colpito deve ripartire da capo (e spesso)
+---
+- Evitare attesa circolare:
+
+N. d'ordine delle risorse R1 < R2 < .. < Rn
+- Vincolo sull'ordine in cui i processi devono fare le richieste delle risorse
+	- es. P richiede R1 -> R4 -> R22 ... R99 
+	- P' Non può richiedere R4 --> R2 **NO** 
+-  Difetti:
+	1. Manca un criterio generale per stabilire l'ordine
+	2. Se cambia l'ordine, i programmi scritti in precedenza funzionano?
+
+### Prevenzione DL (DL avoidance)
+stato del sistema - stato sicuro
+- Con stato intendiamo uno stato di allocazione delle risorse:
+	- processi
+	- tipi di risorse
+		- n. istanze assegnate (e a chi)
+		- n. istanze libere  
+
+i processi devono dichiarare quante risorse ( e di quale tipo) hanno bisogno, prima d'iniziare il processo.
+
+A: assegnato
+R: richiesta
+es. 
+- P1 ha assegnate 2 risorse, ed ha ancora pendenti 3 istanze
+- P4 he da inizializzare, quindi ne ha 0 assegnate ed n da richiedere
+> tabella stato di assegnazione di una risorsa tra i vari processi
+
+| Processi | A      | R   |
+| -------- | ------ | --- |
+| P1       | 2      | 3   |
+| P2       | ..     | ..  |
+| P3       | ..     | ..  |
+| P4       | 0      | n   |
+| ..       | libere | m   | 
+	
+**Uno stato è sicuro** se, assegnazione dopo assegnazione riesce a ottenere uno stato incui tutti i processi hanno potuto completare la loro esecuzione (definizione esistenziale)
+
+### Grafo di allocazione delle risorse con archi di reclamo
+**Prevenione del DeadLock**
+
+- aggiungo l'arco di reclamo, agli elemtnei dei grafi (disegno tratteggiato da P a R)
+
+(Grafici da registrazione)
+ -> validi, quando tutte le risorse hanno una sola istanza
+ - la ricerca del DL. si limita alla ricerca di cicli all'interno dei grafi
+
+**Se ci sono più istanze per risorsa**
+
+| PX  | A   | R   |
+| --- | --- | --- |
+| P1  | 3   | 2   |
+| P2  | 4   | 1   |
+| P3  | 1   | 4   |
+Libere--> 2
+
+- Il SO deve decidere a chi assegnare le 2 risorse libere.
+	- se le assegna a P1 o P2 bene.
+	- Se le da a P1:
+
+
+| PX  | A   | R   |
+| --- | --- | --- |
+| P1  | 3   | --   |
+| P2  | 4   | 1   |
+| P3  | 1   | 4   |
+Libere --> 0
+- devo aspettare che un processo termini e liberi risorse:
+
+| PX  | A   | R   |
+| --- | --- | --- |
+| P1  | --  | --  |
+| P2  | 4   | 1   |
+| P3  | 1   | 4   |
+Libere --> 5
+- adesso il SO può soddisfare sia le richieste di P2 che P3
+
+Questa appena descritta è una sequenza sicura.
+Se il SO all'inizio avesse assegnato le 2 risorse libere a P3, si sarebbe creata una situazione di DeadLock
+
+Una sequenza è sicura quando: $p^1p^2..p^k..p^n$ $\forall k \in [1,n]$
+Le richieste di $p^k$ possono essere soddisfatte con le risorse libere in uqell'istante, più quelle liberate dai processi precendeti
+[[Algoritmo del banchiere]]

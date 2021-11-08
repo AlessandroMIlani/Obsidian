@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md",
+            "file": "Università/Anno II/EPS/Tipologie V.A..md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "9e5f0eaa643c0441",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Università/Lezioni/11-02 EPS.md",
             "mode": "source"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md",
+                "file": "Università/Lezioni/11-02 EPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cf728d16f427b5d8",
+  "active": "9e5f0eaa643c0441",
   "lastOpenFiles": [
-    "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md",
-    "Università/Lezioni/11-03 LFT.md",
-    "Università/Anno II/LFT/Relazione CFG-PDA.md",
-    "Università/Lezioni/11-02 LFT.md",
-    "Università/Anno II/LFT/Automi a pila.md",
-    "Università/Lezioni/10-27 LFT.md",
+    "Università/Lezioni/11-02 EPS.md",
     "Università/Lezioni/10-28 EPS.md",
-    "Università/Anno II/LFT/Eliminazione Ambiguità.md",
-    "Università/Lezioni/10-26 LFT.md",
-    "Università/Lezioni/10-26 SO.md"
+    "Università/Anno II/EPS/Tipologie V.A..md",
+    "Università/Anno II/EPS/Variabili aleatorie.md",
+    "Università/Lezioni/10-21 EPS.md",
+    "Università/Anno II/EPS/indipendenz coll.event..md",
+    "Università/Lezioni/10-14 EPS.md",
+    "Università/Lezioni/11-03 SO.md",
+    "Università/Anno II/EPS/Proprietà P.md",
+    "Università/Anno II/EPS/Modello Probabilistico.md"
   ]
 }

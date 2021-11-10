@@ -24,6 +24,19 @@
     "Deadlock",
     "spooler",
     "Havnder",
-    "starvation"
+    "starvation",
+    "parsing",
+    "top-down",
+    "cpu",
+    "rilocabilità",
+    "Binding",
+    "Linking",
+    "Memory",
+    "Manag",
+    "Unit",
+    "linker",
+    "Loading",
+    "mean",
+    "parser"
   ]
 }

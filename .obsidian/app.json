@@ -38,6 +38,10 @@
     "Loading",
     "mean",
     "parser",
-    "Im"
+    "Im",
+    "scheduler",
+    "ready",
+    "Schedulind",
+    "Swapping"
   ]
 }

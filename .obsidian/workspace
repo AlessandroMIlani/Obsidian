@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6b081d17d7af29fe",
+        "id": "592afe1f5be149da",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/11-10 LFT.md",
+            "file": "Università/Lezioni/11-11 EPS.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "b539abe45964356f",
+        "id": "70e6f55b1449418f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/11-10 LFT.md",
-            "mode": "preview"
+            "file": "Università/Anno II/EPS/PMF Congiunte.md",
+            "mode": "source"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/11-10 LFT.md",
+                "file": "Università/Lezioni/11-11 EPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6b081d17d7af29fe",
+  "active": "592afe1f5be149da",
   "lastOpenFiles": [
-    "Università/Lezioni/11-10 LFT.md",
-    "Università/Lezioni/11-09 LFT.md",
-    "Excalidraw/Drawing 2021-11-10 11.23.36.excalidraw.md",
-    "Pasted image 20211110112344.png",
-    "Excalidraw/Drawing 2021-11-10 11.22.54.excalidraw.md",
-    "Excalidraw/Drawing 2021-11-10 11.22.53.excalidraw.md",
-    "Excalidraw/Drawing 2021-11-10 11.22.41.excalidraw.md",
-    "Excalidraw/Drawing 2021-11-10 11.19.42.excalidraw.md",
-    "Excalidraw/Drawing 2021-11-10 11.18.36.excalidraw.md",
-    "Università/Lezioni/11-09 EPS.md"
+    "Università/Lezioni/11-11 EPS.md",
+    "Università/Lezioni/11-09 EPS.md",
+    "Università/Anno II/EPS/PMF Congiunte.md",
+    "Università/Anno II/EPS/Media e Varianza V.A. Discrete.md",
+    "Università/Lezioni/11-04 EPS.md",
+    "Università/Anno II/EPS/Tipologie V.A..md",
+    "Università/Lezioni/11-02 EPS.md",
+    "Università/Lezioni/10-28 EPS.md",
+    "Università/Anno II/EPS/Variabili aleatorie.md",
+    "Università/Lezioni/11-09 EPS Fab.md"
   ]
 }

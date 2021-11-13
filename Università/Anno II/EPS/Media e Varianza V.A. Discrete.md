@@ -1,5 +1,31 @@
-### Ancora media e varianza di variabili aleatorie discrete
-#### Momenti di ordine K
+## Media e varianza di V.A. Discrete
+
+- X, PMF
+	-  Cerchiamo quantità **riassuntive/sintetiche della PMF** (es. un numero solo)
+
+### Def
+Diciamo **Media**(o valore atteso/medio) della v.a. X la seguente quantità:
+$$Ɇ(X)= \sum_{x \in Im(X)}x\cdot p_X(x)= \sum_{x \in Im(X)}\cdot P(X=x)$$
+**OSS**
+1.  Sinonimi: media / valore atteso / valore medio / mean
+1.   Cosa abbiamo calcolato?
+ 		-  $Ɇ(X)= \sum_{x \in Im(X)}x$ <- media pesata
+			- $P(X=x)$ <- è il peso per la media pesata 
+
+
+ Ɇ(X) è la media pesata dei valori assunti da X... Perché?
+ - $x_1,x_2,..,x_n$ -> valori in Im(X)
+ - $p_X(x_1)=p1,p_2,...,p_n$ -> pesi di probabilità
+
+--> Inserisco i valori di Im(X) in una ruota della fortuna ($x_1,k_1$ volte,$x_2\ \ k_2$ volte ecc..) e faccio girare la ruota K volte (K=$k_1+k_2+...+k_n$)
+
+- $\frac{x_1\cdot k_1+x_2\cdot k_2+...+x_n,k_n}{K}$
+	- $x_1\cdot\frac{k_1}{K}+ x_2\cdot\frac{k_2}{K}+...+x_n\cdot\frac{k_n}{K}$
+		-  $\frac{k_n}{K} \approx p_n$
+	- Se K è "grandissimo", la frequenza si dice relativa 
+	- $x_1\cdot p_1+x_2\cdot p_2+...+x_n\cdot p_n = Ɇ(X)$
+	 
+	 #### Momenti di ordine K
 Definiamo momenti di ordine K della V.A. Discreta $x$ la media di $x^k$ cosi' calcolata:
 
 $E(x^k)=\displaystyle \sum_{x \in imm(x)} x^k\times px(k)$
@@ -62,15 +88,4 @@ $Var(x)=\lambda$
 ##### Ipergeometrica
 $E(x)=n\times \frac{S}{N}$
 
-## PMF congiunte
-
-Data una coppia di variabili aleatorie $X$ ed $Y$, definisco come pmf congiunta la seguente funzione 
-
-$P_{XY}\times^{Imm(X)\times Imm(y)\to R}_{(xy)\to P_{x,y=P(\{X=x\}\cap\{Y=y\})}}$
-
-Usando la PMF congiunta posso calcolare le PMF marginali(delle singole variabili aleatorie)
-$Px(x)=p(X=x)=P(\{X=x\}\cap\Omega)=P(\{X=x\}\cap\cup\{Y=y\})=P(\displaystyle \bigcup_{y\in Imm(y)}\{X=x\}\cap\{Y=y\})=\displaystyle \sum_{y\in Imm(y)}P_{x,y}(x,y)$
-
-La P(X=x) è uguale alla probabilità che X=x e Y=y per uno qualunque dei valori nella sua PMF
-
-La PMF congiunta è il prodotto delle marginali
+[[PMF Congiunte]]

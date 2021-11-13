@@ -92,3 +92,31 @@ $K \in Im(X)=$ {0,1,2,..., n}
 p: prob. di successo in ogni prova 
 
 X ~ Binomiale(n, p) ha PMF come: $p_x(K)=P(X=K)=\binom{n}{k}p^k(1-p)^{n-k}$ 
+
+### Variabile aleatoria geometrica
+
+Svolgiamo prove ripetute di tipo bernulliano (ripetiamo in maniera identica una prova che ha un esito dicotomico, che può essere descritto con due etichette(Successo=S e Fallimento=F)), fino a quando non otteniamo il primo successo.
+
+$\Omega=\{\{S\},\{F,S\},\{F, F,S\}...\}=\{n-1\ F,S\}$
+
+Definiamo X come contatore delle prove eseguite:
+
+- X=$\{F,F,S\}=x=3$
+
+Questa ci permette di stimarle l'immagine che è infinita($N$\0).
+
+$Px(1)$->{$successo$}
+
+Con P che indica la probabilità di successo nella singola prova
+
+$Px(2)$->{$fallimento,successo$}->P(2)=$(1-p)^1$ x $p$
+
+$Px(K)$=Probabilità della stringa di lunghezza $K$=$(1-p)^{K-1}$ x $p$
+
+### Variabile aleatoria Passon
+
+Osservo il verificarsi di un evento d'interesse raro (a bassa frequenza) in una data finestra temporale o spaziale
+
+- Px(k)=P(X=x)=$frac{\lambda^k}{k!}e^{-\lambda}$
+
+[[Media e Varianza V.A. Discrete]]

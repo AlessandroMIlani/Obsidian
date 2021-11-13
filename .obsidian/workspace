@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/11-11 EPS.md",
-            "mode": "source"
+            "file": "Università/Anno II/SO/Ram.md",
+            "mode": "preview"
           }
         }
       },
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/EPS/PMF Congiunte.md",
+            "file": "Università/Lezioni/11-09 SO.md",
             "mode": "source"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/11-11 EPS.md",
+                "file": "Università/Lezioni/11-09 SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "592afe1f5be149da",
+  "active": "70e6f55b1449418f",
   "lastOpenFiles": [
+    "Università/Lezioni/11-09 SO.md",
+    "Università/Anno II/SO/Ram.md",
+    "Università/Anno II/SO/Riassunti Fab/DesadLock.md",
+    "Università/Anno II/EPS/PMF Congiunte.md",
+    "Università/Lezioni/11-03 SO.md",
     "Università/Lezioni/11-11 EPS.md",
     "Università/Lezioni/11-09 EPS.md",
-    "Università/Anno II/EPS/PMF Congiunte.md",
     "Università/Anno II/EPS/Media e Varianza V.A. Discrete.md",
     "Università/Lezioni/11-04 EPS.md",
-    "Università/Anno II/EPS/Tipologie V.A..md",
-    "Università/Lezioni/11-02 EPS.md",
-    "Università/Lezioni/10-28 EPS.md",
-    "Università/Anno II/EPS/Variabili aleatorie.md",
-    "Università/Lezioni/11-09 EPS Fab.md"
+    "Università/Anno II/EPS/Tipologie V.A..md"
   ]
 }

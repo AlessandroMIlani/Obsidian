@@ -92,4 +92,4 @@ $$N(P)=^{def}\{w \in \sum^* | (q_0,w,Z_0) |-_p^* (q,\epsilon,\epsilon)\}$$
 ###### Riconoscitore di stringhe ww$^R$
 ![[Screenshot_2021-11-02-10-00-19_1920x1080.png]]
 
-[Relazione CFG-PDA]
+[[Relazione CFG-PDA]]

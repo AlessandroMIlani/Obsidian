@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "70e6f55b1449418f",
+        "id": "21e0192fb2a83381",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Università/Anno II/SO/Ram.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       },
       {
-        "id": "21e0192fb2a83381",
+        "id": "e6cb0e4588d70b5d",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "paginazio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "70e6f55b1449418f",
+  "active": "21e0192fb2a83381",
   "lastOpenFiles": [
     "Università/Anno II/SO/Ram.md",
-    "Università/Anno II/SO/Soluzioni HW.md",
-    "Università/Anno II/SO/Scheduling.md",
     "Università/Lezioni/11-09 SO.md",
-    "Excalidraw/Drawing 2021-11-13 16.09.49.excalidraw.md",
-    "Università/Anno II/SO/Riassunti Fab/DesadLock.md",
-    "Università/Anno II/EPS/PMF Congiunte.md",
-    "Università/Lezioni/11-03 SO.md",
+    "Università/Anno II/LFT/Grammatiche LL(1).md",
+    "Università/Anno II/SO/Algoritmo del Banchiere.md",
+    "Università/Lezioni/11-10 LFT.md",
     "Università/Lezioni/11-11 EPS.md",
-    "Università/Lezioni/11-09 EPS.md"
+    "Università/Anno II/LFT/Parsing Top-Down.md",
+    "Università/Lezioni/11-09 LFT.md",
+    "Parsing top-down.md",
+    "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md"
   ]
 }

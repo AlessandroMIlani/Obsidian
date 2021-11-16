@@ -60,3 +60,5 @@ Concludiamo $1 = |w| \leq 2^{n-1}=1$
 	- Concludiamo $|w| = |w_1|+|w_2| \leq e^{n-2} + 2^{n-2} = 2^{n-1}$ 
 
 # Pumpling lemma dimostrazione -> Slide
+
+[[Parsing top-down]]

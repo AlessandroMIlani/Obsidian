@@ -9,18 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/SO/Ram.md",
-            "mode": "preview"
+            "file": "Università/Lezioni/11-17 SO.md",
+            "mode": "source"
           }
         }
       },
       {
-        "id": "e6cb0e4588d70b5d",
+        "id": "f44b594c6c3be4f4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/SO/Ram.md",
+            "file": "Università/Lezioni/11-17 SO.md",
             "mode": "preview"
           }
         }
@@ -59,12 +59,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/SO/Ram.md",
+                "file": "Università/Lezioni/11-17 SO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,15 +100,15 @@
   },
   "active": "21e0192fb2a83381",
   "lastOpenFiles": [
+    "Università/Lezioni/11-17 SO.md",
+    "Università/Lezioni/11-17 LFT.md",
+    "Università/Lezioni/11-16 SO.md",
+    "Università/Lezioni/11-16 LFT.md",
     "Università/Anno II/SO/Ram.md",
     "Università/Lezioni/11-09 SO.md",
     "Università/Anno II/LFT/Grammatiche LL(1).md",
     "Università/Anno II/SO/Algoritmo del Banchiere.md",
     "Università/Lezioni/11-10 LFT.md",
-    "Università/Lezioni/11-11 EPS.md",
-    "Università/Anno II/LFT/Parsing Top-Down.md",
-    "Università/Lezioni/11-09 LFT.md",
-    "Parsing top-down.md",
-    "Università/Anno II/LFT/Pumpling Lemma - Linguaggi Liberi.md"
+    "Università/Lezioni/11-11 EPS.md"
   ]
 }

@@ -122,13 +122,13 @@ Non sfrutta la continuità:
 
 Immaginiamo la ram divisa in porzioni dette **Frame**
 Mem. logica del processore divisa in parti di pari dimensione dette **pagine**
-- un indirizzo logico è una cpiia <p,o> (p -> pagina | o -> offset)
+- un indirizzo logico è una coppia <p,o> (p -> pagina | o -> offset)
 
 ![[Pasted image 20211113165748.png]]
 
 La paginazione permette la rilocabilità? SI
 
-Supponiamo uno spazio gramdne $2^m$ e pagine grandi $2^n$, facendo $\frac{2^m}{2^n}$ ottengo il numero di pagine necessarie al processo
+Supponiamo uno spazio grande $2^m$ e pagine grandi $2^n$, facendo $\frac{2^m}{2^n}$ ottengo il numero di pagine necessarie al processo
 - (m-n)bit per scrivere la componente p dell'indirizzo logico 
 - per l'offset mi serve invece il dato n
 
@@ -149,3 +149,133 @@ if(#frame liberi >= pagine p){
 
 ![[Pasted image 20211113170452.png]]
 
+Alcune architetture implementano della memoria Cache / TLB che memorizza parte della tabella dele pagine.
+Cerco nel frammenot salvato se ho il mio inirizzo logico, se non lo trovo, accedo alla ram e cerco li
+
+| p   | f   |
+| --- | --- |
+| p1  | f1  |
+| p2  | f2  |
+| p3  | f3  |
+| pn  | fn  |
+
+
+**ES**
+- SO: Paginazione + TLB
+- Hit Ratio (percentuale di successo): 92% 
+	- richiede 1 tempo di accesso al TLB + 1 tempo di accesso alla RAM 
+- TLB Miss: 8% (= 100% - Hit Ratio)
+	- richiede 2 volte il tempo di accesso alla ram 
+
+Tempo accesso al TLB = 20
+Tempo accesso alla Ram = 100
+
+Tempo medio di accesso alle pagine? = $(20+100)*0.92+200*0.08=126,4$
+
+
+###### Condivisione di Pagine
+Spesso i processi sfruttano delle librerie caircate con linking/loading dinamici.
+Ipotizioamo che la funzione stanf sia caricata in 1 pagina della sua libreria.
+- I processi che volgio utilizzare la funzione possono prendere la sua pagina ed agganciarla alla loro rista delle pagine
+- Se anche P1 vuole accedere a quella pagina, al posto di copiare la pagina, la si può linkare nella loro tabella delle pagine
+	- in questo modo, evito di moltiplicare la pagina per ogni programma che ne necessita
+
+**Posso condividere pagine in scrittura?**
+Si, tramite la memoria condivisa.
+Per esempio un buffer, può avere una pagina presente sia in P che P1 ocsì da permettre uno scambio di dati.
+
+| pagine | modalità di accesso |
+| ------ | ------------------- |
+| P      | R                   |
+| P1     | R/W                 |
+| P2     | R/W                 |
+| ..     | ...                 |
+| Pn     | W                   | 
+
+###### Implementazione tabella delle pagine
+*Problema:*
+Può essere molto grande, e deve essere contigua.
+
+**Paginazione Multi-Livello, albero a 2 livelli**
+Al posto di un array, utilizzo un albero
+```mermaid 
+	flowchart LR
+a(tabella delle pagine esterna) --> b
+a --> c(porzione tab. pagine)
+b(porzione tab. pagine) --> d
+b --> e
+c --> f
+
+````
+- I dati/funzioni efettivi, sono nelle foglie
+- Devo modificare gli indirizzi logici.
+	- devo suare delle triple <p1,p2,o>
+		- p1 -> accesso tab. pag. esterna
+		- p2 -> porzione tabella delle pagine
+		- o -> offset
+			- poi tradotto il tutto nel ind. fisico: <f,o>
+
+---
+- Hash Table
+- Posso invertire il punto di vista.
+	- sempre usato il p.v. del processo: si pate dallo spazio ind. logici
+	- Passo al punto di vista della RAM
+	- Tabella che ha tanti elementi quanti i frame: <pid,p,o>
+		- p -> pagina, o -> offset, pid -> identifica il processo
+
+**Tabella delle pagine inversa/invertita**
+
+| indice | pid  | p   |
+| ------ | ---- | --- |
+| 0      | 3001 | 2   | 
+| .      | .    | .   |
+| ..     | ..   | ..  |
+| ...    | ...  | ... |
+| n      | nn   | nnn |
+
+- controllo sequenziale
+	- prima cerco il pid, poi che la pagina corrisponda ed infine l'offset 
+
+
+**recuperare grafico fatto bene da video o Miriam**
+CPU --> <pid,p,o> : indirizzo logico
+
+Pid e p permettono di recueprare l'indice per l'indirizzo finisico: <i,o>
+
+#### Segmentazione
+- ogni processo ha assegnato dei segmenti sparsi nella ram
+- non vede la memoria divisa in frame uguali
+- In ogni segmento ho dati omogenei (solo dati, solo codice ...)
+
+*sfruttao sia caratteristiche delle partizioni continue che della paginazione.*
+- ogni segmento ha u indirizzo baase
+- Ho una tabella dei segmenti
+
+<s,o> s = segmento, o = offset
+
+**da ind. logico a fisico**
+Logico: <s,o>
+s mi indica un accesso diretto alla tabella dei segmenti (è un po' come un indice)
+- all'interno della tabella trovo l'indirizzo base del segmento e la sua dimensione limite 
+	
+
+| base | limite |
+| ---- | ------ |
+| i = 40   | 1000   |	
+	
+- controllo che l'offset sia $\leq$ del limite
+	- se la risposta è si, accesso legale alla memoria e compongo l'ind. fisico:
+		- ricopio l'offset ed aggiungo l'indice che è la base del segmento
+		- <o,i>
+
+
+###### Segmentazione paginata
+- ogni segmento è un multiplo di un valore base
+- è utilizzada attiavemente da molte architetture
+
+cpu -ind.logic-> Unità di segmentazione -ind.lineare->unità di paginazione --> ram
+- i segmenti possono essere locali o globali ( librerie)
+- ind. logico = <s, g/l,o> -trasformo in indirizzo per alberi a 2 livelli-> <p1,p2,o> -> ind. fisico
+
+
+[[Ram p2]]

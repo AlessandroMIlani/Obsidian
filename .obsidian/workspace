@@ -6,24 +6,22 @@
       {
         "id": "21e0192fb2a83381",
         "type": "leaf",
-        "dimension": 51.7948717948718,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/EPS/Probabilità/09. V.A. continue.md",
+            "file": "Università/Anno II/EPS/Probabilità/Formulario 2' cosenga.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "f44b594c6c3be4f4",
+        "id": "7bd4dddce79db7dd",
         "type": "leaf",
-        "dimension": 48.205128205128204,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/11-16 EPS.md",
-            "mode": "source"
+            "file": "Università/Anno II/EPS/Probabilità/Formulario 2' cosenga.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "paginazio",
+                "query": "media della distrib",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/11-16 EPS.md",
+                "file": "Università/Anno II/EPS/Probabilità/Formulario 2' cosenga.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f44b594c6c3be4f4",
+  "active": "21e0192fb2a83381",
   "lastOpenFiles": [
-    "Università/Lezioni/11-16 EPS.md",
-    "Università/Anno II/EPS/Probabilità/09. V.A. continue.md",
-    "Università/Anno II/EPS/Probabilità/08. PMF Congiunte.md",
-    "Università/Lezioni/11-11 EPS.md",
-    "Università/Anno II/LFT/18. Definizioni dirette dalla sintassi.md",
-    "Università/Anno II/LFT/17. Grammatiche fatt. e ricor. Sx.md",
-    "Università/Anno II/LFT/16. Grammatiche LL(1).md",
-    "Università/Anno II/LFT/15. Parsing Top-Down.md",
-    "Università/Anno II/LFT/14. Pumpling Lemma - Linguaggi Liberi.md",
-    "Università/Anno II/LFT/13. Relazione CFG-PDA.md"
+    "Università/Anno II/EPS/Probabilità/Formulario 2' cosenga.md",
+    "Università/Lezioni/11-23 EPS.md",
+    "Università/Lezioni/11-23 LFT.md",
+    "Università/Lezioni/11-23 SO.md",
+    "Università/Anno II/Immagini/Pasted image 20211123173831.png",
+    "Università/Anno II/Immagini/Pasted image 20211123154336.png",
+    "Università/Anno II/Immagini/Pasted image 20211123154029.png",
+    "Pasted image 20211123154322.png",
+    "Università/Anno II/Immagini/Pasted image 20211123123753.png",
+    "Università/Anno II/Immagini/Pasted image 20211123123737.png"
   ]
 }

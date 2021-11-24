@@ -82,6 +82,7 @@
     "^n",
     "inter-quartile",
     "quortile",
-    "Dotplot"
+    "Dotplot",
+    "L-attribuita"
   ]
 }

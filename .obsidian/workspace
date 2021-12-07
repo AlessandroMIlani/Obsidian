@@ -9,19 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni/11-24 LFT.md",
+            "file": "Università/Anno II/EPS/Statistica/02. S. descrittiva - dati univariati.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "71bd7b99e12b494b",
+        "id": "84622f1d9da1754c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/SO/14. Memoria virtuale.md",
-            "mode": "source"
+            "file": "Università/Lezioni/12-07 EPS.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni/11-24 LFT.md",
+                "file": "Università/Anno II/EPS/Statistica/02. S. descrittiva - dati univariati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "ef24278cea465dce",
   "lastOpenFiles": [
-    "Università/Lezioni/11-24 LFT.md",
-    "Università/Lezioni/11-24 SO.md",
-    "Università/Lezioni/11-25 EPS.md",
-    "Università/Anno II/SO/13. Ram p2.md",
-    "Università/Anno II/SO/14. Memoria virtuale.md",
-    "Università/Anno II/LFT/14. Pumpling Lemma - Linguaggi Liberi.md",
-    "Università/Anno II/LFT/16. Grammatiche LL(1).md",
-    "Università/Anno II/LFT/15. Parsing Top-Down.md",
-    "Università/Anno II/LFT/17. Grammatiche fatt. e ricor. Sx.md",
-    "Università/Anno II/LFT/18. Definizioni dirette dalla sintassi.md"
+    "Università/Anno II/EPS/Statistica/02. S. descrittiva - dati univariati.md",
+    "Università/Anno II/EPS/Statistica/01. Introduzione.md",
+    "Università/Lezioni/11-23 EPS.md",
+    "Università/Lezioni/11-19 EPS - inizio statistica.md",
+    "Università/Lezioni/12-07 EPS.md",
+    "Altro/Tmp.md",
+    "Università/Lezioni/12-07 LFT.md",
+    "Università/Lezioni/12-07 SO.md",
+    "Università/Lezioni/12-01 SO.md",
+    "Università/Lezioni/12-02 EPS.md"
   ]
 }

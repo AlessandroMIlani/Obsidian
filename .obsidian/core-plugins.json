@@ -5,10 +5,12 @@
   "graph",
   "backlink",
   "page-preview",
+  "templates",
   "note-composer",
   "command-palette",
   "markdown-importer",
   "word-count",
+  "slides",
   "open-with-default-app",
   "file-recovery"
 ]

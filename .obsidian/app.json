@@ -88,5 +88,13 @@
   "spellcheck": false,
   "readableLineLength": false,
   "foldHeading": true,
-  "foldIndent": false
+  "foldIndent": false,
+  "legacyEditor": false,
+  "livePreview": true,
+  "pdfExportSettings": {
+    "pageSize": "Tabloid",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

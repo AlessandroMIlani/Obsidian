@@ -9,17 +9,22 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Altro/Tmp.md",
-            "mode": "source"
+            "file": "Guerra Ucraina/Introduzione e link fonti.md",
+            "mode": "source",
+            "source": false
           }
         }
       },
       {
-        "id": "60389db2d04e4390",
+        "id": "cb7eb7dc3927a1f6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Altro/Tmp.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -60,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 199
+    "width": 311,
+    "collapsed": true
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -103,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6a2772a481671969",
+  "active": "cb7eb7dc3927a1f6",
   "lastOpenFiles": [
     "Altro/Tmp.md",
-    "Università/as.md",
-    "_Template/cornell.md",
-    "Università/Metodo di studio... magari è il caso di organizzarsi.md",
-    "Università/Lezioni/asd.md",
-    "Università/asd.md",
-    "tmp.md",
-    "Università/Anno II/Immagini/Pasted image 20211209124211.png",
-    "Pasted image 20211209125742.png",
-    "Università/Anno II/Immagini/Pasted image 20211209125932.png"
+    "Guerra Ucraina/Introduzione e link fonti.md",
+    "Guerra Ucraina/Europa e sanzioni.md",
+    "Guerra Ucraina/CyberWar.md",
+    "Guerra Ucraina/Nato e alleanze.md",
+    "Guerra Ucraina/Questione Economica.md",
+    "Guerra Ucraina/Discorso Putin.md",
+    "Guerra Ucraina/Questione Storica.md",
+    "Altro/relazione.md",
+    "Università/Anno II/SO/07b. Soluzioni HW.md"
   ]
 }

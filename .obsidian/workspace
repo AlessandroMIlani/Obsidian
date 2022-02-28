@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6a2772a481671969",
+        "id": "cbdb7cb5f3ad44bf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Guerra Ucraina/Introduzione e link fonti.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "cb7eb7dc3927a1f6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Altro/Tmp.md",
+            "file": "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
             "mode": "source",
             "source": false
           }
@@ -82,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Altro/Tmp.md",
+                "file": "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cb7eb7dc3927a1f6",
+  "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
-    "Altro/Tmp.md",
+    "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
+    "Università/Lezioni Anno II Semestre II/28-02 DB.md",
+    "Università/Anno II/SO/03. Architettura SO.md",
+    "Università/Anno I/ArchElab/Temporizzazione del percorso dati.md",
+    "Università/Anno I/ArchElab/Ottimizzazione dei microprogrammi - parallelismo nelle microoperazioni.md",
+    "Università/Anno I/ArchElab/Main IJVM.md",
+    "_Template/cornell.md",
     "Guerra Ucraina/Introduzione e link fonti.md",
-    "Guerra Ucraina/Europa e sanzioni.md",
-    "Guerra Ucraina/CyberWar.md",
-    "Guerra Ucraina/Nato e alleanze.md",
-    "Guerra Ucraina/Questione Economica.md",
-    "Guerra Ucraina/Discorso Putin.md",
-    "Guerra Ucraina/Questione Storica.md",
-    "Altro/relazione.md",
-    "Università/Anno II/SO/07b. Soluzioni HW.md"
+    "Altro/Tmp.md",
+    "Guerra Ucraina/Europa e sanzioni.md"
   ]
 }

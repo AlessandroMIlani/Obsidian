@@ -1,9 +1,4 @@
 [
   "table-editor-obsidian",
-  "obsidian-mind-map",
-  "obsidian-charts",
-  "obsidian-plotly",
-  "templater-obsidian",
-  "cm-editor-syntax-highlight-obsidian",
-  "obsidian-discordrpc"
+  "cm-editor-syntax-highlight-obsidian"
 ]

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
+            "file": "Università/Anno II/DB/01. Introduzione.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311,
-    "collapsed": true
+    "width": 311
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
+                "file": "Università/Anno II/DB/01. Introduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +98,15 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
-    "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
+    "Università/Anno II/DB/01. Introduzione.md",
     "Università/Lezioni Anno II Semestre II/28-02 DB.md",
-    "Università/Anno II/SO/03. Architettura SO.md",
-    "Università/Anno I/ArchElab/Temporizzazione del percorso dati.md",
-    "Università/Anno I/ArchElab/Ottimizzazione dei microprogrammi - parallelismo nelle microoperazioni.md",
-    "Università/Anno I/ArchElab/Main IJVM.md",
-    "_Template/cornell.md",
-    "Guerra Ucraina/Introduzione e link fonti.md",
     "Altro/Tmp.md",
-    "Guerra Ucraina/Europa e sanzioni.md"
+    "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
+    "Pasted image 20220228105545.png",
+    "Pasted image 20220228104836.png",
+    "Altro/relazione.md",
+    "Università/Metodo di studio... magari è il caso di organizzarsi.md",
+    "Università/Anno II/SO/03. Architettura SO.md",
+    "Università/Anno I/ArchElab/Temporizzazione del percorso dati.md"
   ]
 }

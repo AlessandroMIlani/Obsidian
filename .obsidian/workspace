@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/DB/01. Introduzione.md",
+            "file": "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311
+    "width": 311,
+    "collapsed": true
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/DB/01. Introduzione.md",
+                "file": "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +99,15 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
-    "Università/Anno II/DB/01. Introduzione.md",
-    "Università/Lezioni Anno II Semestre II/28-02 DB.md",
-    "Altro/Tmp.md",
+    "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
+    "Università/Lezioni Anno II Semestre II/03-02 Fisica.md",
+    "Università/Lezioni Anno II Semestre II/02-28 DB.md",
     "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
+    "Università/Anno II/DB/01. Introduzione.md",
+    "Altro/Tmp.md",
     "Pasted image 20220228105545.png",
     "Pasted image 20220228104836.png",
     "Altro/relazione.md",
-    "Università/Metodo di studio... magari è il caso di organizzarsi.md",
-    "Università/Anno II/SO/03. Architettura SO.md",
-    "Università/Anno I/ArchElab/Temporizzazione del percorso dati.md"
+    "Università/Metodo di studio... magari è il caso di organizzarsi.md"
   ]
 }

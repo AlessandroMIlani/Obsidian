@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
+            "file": "Università/Lezioni Anno II Semestre II/03-03 Economia.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
+                "file": "Università/Lezioni Anno II Semestre II/03-03 Economia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
+    "Università/Lezioni Anno II Semestre II/03-03 Economia.md",
+    "Università/Lezioni Anno II Semestre II/03-03 DB.md",
+    "Università/Lezioni Anno II Semestre II/03-03 DB-Lab.md",
+    "Università/Anno II/SO/04. Scheduling.md",
+    "Università/Anno II/SO/03. Architettura SO.md",
+    "Università/Anno II/SO/02. Storia.md",
+    "Università/Lezioni Anno II Semestre II/02-28 DB.md",
     "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
     "Università/Lezioni Anno II Semestre II/03-02 Fisica.md",
-    "Università/Lezioni Anno II Semestre II/02-28 DB.md",
-    "Università/Lezioni Anno II Semestre II/28-02 ASD.md",
-    "Università/Anno II/DB/01. Introduzione.md",
-    "Altro/Tmp.md",
-    "Pasted image 20220228105545.png",
-    "Pasted image 20220228104836.png",
-    "Altro/relazione.md",
-    "Università/Metodo di studio... magari è il caso di organizzarsi.md"
+    "Università/Lezioni Anno II Semestre II/28-02 ASD.md"
   ]
 }

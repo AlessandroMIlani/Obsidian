@@ -6,8 +6,13 @@
 - #### Coordinate
 	- 1D -> movimento su una retta | 2D -> movimento su piano cartesiano (rispetto l'origine) | 3D -> ... | posso generalizzare a $X_n$ dimensioni 
 - #### Legge oraria
+	- Dove si trova il punto i al tempo t
 	- $x(t)$, $y(t)$, $z(t)$ in D=3
-		- prendo il tempo in input e restitusco un array (che indica la posizoine)
+		- prendo il tempo(Real) in input e restitusco un array (che indica la posizoine)
+	- Eesempi:
+		-  $x(t) = x_0 = costante$  -> il punto è fermo 
+		- $x(t) = x_0 + v_0t$ -> moto uniforme
+		- $x(t) = v_0t+\frac {1}{2}a_0t^2$ -> moto uniformemente accellerato6
 - #### Vettore
 	-    $\vec r = x\vec i + y\vec j = (x,y)$  
 		- faccio x passi lungo i e y passi lungo j 
@@ -21,12 +26,15 @@
 - #### Prodotto scalare  
 	- $f(\vec u, \vec v)= \vec u \cdot \vec v \in R$
 		- uso le componenti $\vec u=(u_1, u_2) = (u_x,u_y)$...
-		-   $\vec u \cdot \vec v = u_1v_1 + u_2v_2 + ...$ 
+		- $\vec u \cdot \vec v = u_1v_1 + u_2v_2 + ...$  -> (Se i 2 vettori sono perpendicolari, il risultato è 0)
 		- $\vec v \cdot \vec v= {\vec v}^2= x^2+y^2$
 		- **Significato intrinseco**
-		Se ho 2 vettori $\vec u$ e $\vec v$, il prodotto scalare $\vec u \cdot \vec v= ||\vec v|| \cdot ||\vec u_\perp|| = ||\vec v|| \cdot ||\vec u||\cdot \cos \theta$  (teta angolo tra  i 2 vettori)   
+		Se ho 2 vettori $\vec u$ e $\vec v$, il prodotto scalare $\vec u \cdot \vec v= ||\vec v|| \cdot ||\vec u_\perp|| = ||\vec v|| \cdot ||\vec u||\cdot \cos \theta$  ($\theta$ angolo tra  i 2 vettori)   
 			- $\vec u = (x,y)\ \ \ \vec v = (v,0)$ ---- $\vec u = x\vec i + y\vec j \ \ \vec v = v\vec i$ ----$\vec u \cdot \vec u = x^2+y^2$ ---- $\vec v \cdot \vec v = {||\vec v||}^2 = v^2$ 
 			- $\vec u \cdot \vec v=xv = (||\vec u|| \cos \theta\ ||\vec v||) = ||\vec  u||\ ||\vec v||\ cos \theta$ 
+		- ##### Prodotto scalare e modulo 
+			- $\vec v \cdot \vec v={||\vec v||}^2$
+			- ${\vec u}^2 \neq u_i^2\vec i + u_2^2\vec j$ 
 - #### Versore
 	- Vettore che fornisce solo l'informazione della direzione
 	- $\frac {\vec u}{ |vec u ||} = \vec l_{\vec u}$  

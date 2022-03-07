@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni Anno II Semestre II/03-04 Economia.md",
+            "file": "Università/Anno II/Fisica/02. Velocità e Accelerazione.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311,
-    "collapsed": true
+    "width": 311
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni Anno II Semestre II/03-04 Economia.md",
+                "file": "Università/Anno II/Fisica/02. Velocità e Accelerazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +98,15 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
-    "Università/Lezioni Anno II Semestre II/03-04 Economia.md",
+    "Università/Anno II/Fisica/02. Velocità e Accelerazione.md",
     "Università/Lezioni Anno II Semestre II/03-04 Fisica.md",
-    "Università/Lezioni Anno II Semestre II/03-02 Fisica.md",
+    "Università/Anno II/Fisica/01. Introduzione e basi.md",
     "Università/Lezioni Anno II Semestre II/03-03 DB.md",
+    "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
+    "Università/Anno II/DB/Lab/02. Modello Relazionale.md",
+    "Università/Anno II/DB/Lab/Lab 03-03.md",
     "Università/Lezioni Anno II Semestre II/03-03 DB-Lab.md",
-    "Università/Anno II/SO/04. Scheduling.md",
-    "Università/Anno II/SO/03. Architettura SO.md",
-    "Università/Anno II/SO/02. Storia.md",
-    "Università/Lezioni Anno II Semestre II/02-28 DB.md",
-    "Università/Lezioni Anno II Semestre II/03-02 ALG.md"
+    "Università/Anno II/DB/01. Introduzione.md",
+    "Università/Anno II/Economia/01. Introduzione.md"
   ]
 }

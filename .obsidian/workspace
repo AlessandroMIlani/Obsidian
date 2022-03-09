@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/Fisica/02. Velocità e Accelerazione.md",
+            "file": "Università/Lezioni Anno II Semestre II/08-03 DB-Lab.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311
+    "width": 311,
+    "collapsed": true
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/Fisica/02. Velocità e Accelerazione.md",
+                "file": "Università/Lezioni Anno II Semestre II/08-03 DB-Lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +99,15 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
+    "Università/Lezioni Anno II Semestre II/08-03 DB-Lab.md",
+    "Università/Lezioni Anno II Semestre II/03-07 DB.md",
+    "Università/Anno II/DB/02. Modello Relazionale.md",
+    "Università/Lezioni Anno II Semestre II/03-03 DB.md",
+    "Università/Anno II/DB/Lab/Lab 03-03.md",
+    "Università/Anno II/DB/02..md",
+    "Università/Anno II/DB/01. Introduzione.md",
     "Università/Anno II/Fisica/02. Velocità e Accelerazione.md",
     "Università/Lezioni Anno II Semestre II/03-04 Fisica.md",
-    "Università/Anno II/Fisica/01. Introduzione e basi.md",
-    "Università/Lezioni Anno II Semestre II/03-03 DB.md",
-    "Università/Lezioni Anno II Semestre II/03-02 ALG.md",
-    "Università/Anno II/DB/Lab/02. Modello Relazionale.md",
-    "Università/Anno II/DB/Lab/Lab 03-03.md",
-    "Università/Lezioni Anno II Semestre II/03-03 DB-Lab.md",
-    "Università/Anno II/DB/01. Introduzione.md",
-    "Università/Anno II/Economia/01. Introduzione.md"
+    "Università/Anno II/Fisica/01. Introduzione e basi.md"
   ]
 }

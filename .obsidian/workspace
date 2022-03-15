@@ -7,11 +7,9 @@
         "id": "cbdb7cb5f3ad44bf",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Università/Lezioni Anno II Semestre II/11-03 Fisica.md",
-            "mode": "source",
-            "source": false
+            "file": "Università/Anno II/Immagini/Pasted image 20220310141949.png"
           }
         }
       }
@@ -53,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311,
-    "collapsed": true
+    "width": 311
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -70,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni Anno II Semestre II/11-03 Fisica.md",
+                "file": "Università/Anno II/Immagini/Pasted image 20220310141949.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +96,15 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
-    "Università/Lezioni Anno II Semestre II/11-03 Fisica.md",
-    "Università/Lezioni Anno II Semestre II/10-03 DB.md",
+    "Università/Anno II/Immagini/Pasted image 20220310141949.png",
+    "Università/Lezioni Anno II Semestre II/03-14 ALG.md",
+    "Università/Lezioni Anno II Semestre II/03-14 DB.md",
+    "Università/Lezioni Anno II Semestre II/03-09 ALG.md",
+    "Università/Lezioni Anno II Semestre II/03-10 DB.md",
+    "Università/Lezioni Anno II Semestre II/03-11 Fisica.md",
+    "Università/Lezioni Anno II Semestre II/03-08 DB-Lab.md",
     "Università/Lezioni Anno II Semestre II/03-07 DB.md",
-    "Università/Lezioni Anno II Semestre II/08-03 DB-Lab.md",
     "Università/Anno II/DB/Lab/08-03 DB-Lab.md",
-    "Università/Anno II/DB/Lab/03-03 Lab.md",
-    "Università/Anno II/DB/02. Modello Relazionale.md",
-    "Università/Lezioni Anno II Semestre II/03-03 DB.md",
-    "Università/Anno II/DB/02..md",
-    "Università/Anno II/DB/01. Introduzione.md"
+    "Università/Anno II/DB/Lab/03-03 Lab.md"
   ]
 }

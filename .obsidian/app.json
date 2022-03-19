@@ -83,7 +83,15 @@
     "inter-quartile",
     "quortile",
     "Dotplot",
-    "L-attribuita"
+    "L-attribuita",
+    "Korag",
+    "Tempus",
+    "Tempus",
+    "Korag",
+    "Gruumsh",
+    "Gruumsh",
+    "Tempus",
+    "Korag"
   ],
   "spellcheck": false,
   "readableLineLength": false,
@@ -92,7 +100,7 @@
   "legacyEditor": false,
   "livePreview": true,
   "pdfExportSettings": {
-    "pageSize": "Tabloid",
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100

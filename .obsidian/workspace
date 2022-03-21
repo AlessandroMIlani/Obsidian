@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Lezioni Anno II Semestre II/03-18 Diritto.md",
+            "file": "Università/Anno II/ALG/2.2 Analisi degli algoritmi.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.006872177124,
-    "collapsed": true
+    "width": 308.006872177124
   },
   "right": {
     "id": "6ce0577310a1e81f",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Lezioni Anno II Semestre II/03-18 Diritto.md",
+                "file": "Università/Anno II/ALG/2.2 Analisi degli algoritmi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +98,15 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
+    "Università/Anno II/ALG/2.2 Analisi degli algoritmi.md",
+    "Università/Anno II/ALG/2.1 Insertion sort.md",
+    "Università/Anno II/ALG/01. Problemi insolubili e Intrattabili.md",
     "Università/Lezioni Anno II Semestre II/03-18 Diritto.md",
     "Università/Lezioni Anno II Semestre II/03-18 EGI Appunti Miriam.md",
     "Università/Lezioni Anno II Semestre II/03-14 DB.md",
     "Università/Lezioni Anno II Semestre II/03-16 Fisica.md",
     "Università/Anno II/Immagini/Pasted image 20220310141949.png",
     "Università/Lezioni Anno II Semestre II/03-14 ALG.md",
-    "Università/Lezioni Anno II Semestre II/03-09 ALG.md",
-    "Università/Lezioni Anno II Semestre II/03-10 DB.md",
-    "Università/Lezioni Anno II Semestre II/03-11 Fisica.md",
-    "Università/Lezioni Anno II Semestre II/03-08 DB-Lab.md"
+    "Università/Lezioni Anno II Semestre II/03-09 ALG.md"
   ]
 }

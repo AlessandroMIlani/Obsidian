@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Università/Anno II/ALG/2.2 Analisi degli algoritmi.md",
+            "file": "Università/Anno II/ALG/4.X Metodi risoluzione ricorrenze.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Università/Anno II/ALG/2.2 Analisi degli algoritmi.md",
+                "file": "Università/Anno II/ALG/4.X Metodi risoluzione ricorrenze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +98,8 @@
   },
   "active": "cbdb7cb5f3ad44bf",
   "lastOpenFiles": [
+    "Università/Anno II/ALG/4.X Metodi risoluzione ricorrenze.md",
+    "Università/Anno II/ALG/3.X Crescita delle funzioni.md",
     "Università/Anno II/ALG/2.2 Analisi degli algoritmi.md",
     "Università/Anno II/ALG/2.1 Insertion sort.md",
     "Università/Anno II/ALG/01. Problemi insolubili e Intrattabili.md",
@@ -105,8 +107,6 @@
     "Università/Lezioni Anno II Semestre II/03-18 EGI Appunti Miriam.md",
     "Università/Lezioni Anno II Semestre II/03-14 DB.md",
     "Università/Lezioni Anno II Semestre II/03-16 Fisica.md",
-    "Università/Anno II/Immagini/Pasted image 20220310141949.png",
-    "Università/Lezioni Anno II Semestre II/03-14 ALG.md",
-    "Università/Lezioni Anno II Semestre II/03-09 ALG.md"
+    "Università/Anno II/Immagini/Pasted image 20220310141949.png"
   ]
 }
